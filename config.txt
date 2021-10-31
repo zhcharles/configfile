@@ -8549,1147 +8549,1147 @@ rack qa01 g.qa.ooredoo
 
 
 ############ MACHINES ############
-protocol da999.sg01.fluxdb.com http https https-small https-linear
+protocol da999.sg01.fluxdb.com 
 machine da999.sg01.fluxdb.com sg98 203.117.147.237 
-protocol da02.bd01.fluxdb.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da02.bd01.fluxdb.com 
 machine da02.bd01.fluxdb.com bd01 103.147.182.180 
-protocol da03.bd01.fluxdb.com https-bulk sh-rtmp ta-egress
+protocol da03.bd01.fluxdb.com 
 machine da03.bd01.fluxdb.com bd01 103.147.182.181 
-protocol nda01.id26.fluxdb.com nda      
+protocol nda01.id26.fluxdb.com 
 machine nda01.id26.fluxdb.com id26-httpflv 103.147.212.53 
-protocol da02.my08.fluxdb.com sh-rtmp nda
+protocol da02.my08.fluxdb.com 
 machine da02.my08.fluxdb.com http 1.9.217.107 
-protocol mt01.sg01.fluxdb.com http      
+protocol mt01.sg01.fluxdb.com 
 machine mt01.sg01.fluxdb.com sg01-midtier 203.117.147.218 
-protocol mt03.sg01.fluxdb.com http      
+protocol mt03.sg01.fluxdb.com 
 machine mt03.sg01.fluxdb.com sg01-midtier 203.117.147.221 
-protocol mt02.sg01.fluxdb.com http      
+protocol mt02.sg01.fluxdb.com 
 machine mt02.sg01.fluxdb.com sg01-video-midtier 203.117.147.220 
-protocol mt04.sg01.fluxdb.com http  https
+protocol mt04.sg01.fluxdb.com 
 machine mt04.sg01.fluxdb.com http 203.117.147.231 
-protocol mt05.sg01.fluxdb.com http      
+protocol mt05.sg01.fluxdb.com 
 machine mt05.sg01.fluxdb.com sg01-video-midtier 203.117.147.207 
-protocol mt06.sg01.fluxdb.com http      
+protocol mt06.sg01.fluxdb.com 
 machine mt06.sg01.fluxdb.com sg01-video-midtier 203.117.147.205 
-protocol mt07.sg01.fluxdb.com http      
+protocol mt07.sg01.fluxdb.com 
 machine mt07.sg01.fluxdb.com sg01-video-midtier 203.117.147.206 
-protocol da01.th08.fluxdb.com http      
+protocol da01.th08.fluxdb.com 
 machine da01.th08.fluxdb.com th08 203.144.174.101 
-protocol da02.th08.fluxdb.com http      
+protocol da02.th08.fluxdb.com 
 machine da02.th08.fluxdb.com th08 203.144.174.102 
-protocol da03.th08.fluxdb.com http      
+protocol da03.th08.fluxdb.com 
 machine da03.th08.fluxdb.com th08 203.144.174.112 
-protocol da01.th38.fluxdb.com http https https-bulk https-linear https-small  
+protocol da01.th38.fluxdb.com 
 machine da01.th38.fluxdb.com th38 125.24.217.19 
-protocol da02.th38.fluxdb.com http https https-bulk https-linear https-small  
+protocol da02.th38.fluxdb.com 
 machine da02.th38.fluxdb.com th38 125.24.213.202 
-protocol da03.th38.fluxdb.com http https https-bulk https-linear   
+protocol da03.th38.fluxdb.com 
 machine da03.th38.fluxdb.com th38-TT 125.24.213.203 
-protocol da04.th38.fluxdb.com http https https-bulk https-linear   
+protocol da04.th38.fluxdb.com 
 machine da04.th38.fluxdb.com th38-TT 125.24.213.204 
-protocol da02.th39.fluxdb.com http https https-bulk https-linear https-small  
+protocol da02.th39.fluxdb.com 
 machine da02.th39.fluxdb.com th39 125.24.213.194 
-protocol da03.th39.fluxdb.com http https https-bulk https-linear   
+protocol da03.th39.fluxdb.com 
 machine da03.th39.fluxdb.com th39-TT 125.24.213.195 
-protocol da04.th39.fluxdb.com http https https-bulk https-linear   
+protocol da04.th39.fluxdb.com 
 machine da04.th39.fluxdb.com th39-TT 125.24.213.196 
-protocol da01.th41.fluxdb.com http https https-bulk https-linear https-small  
+protocol da01.th41.fluxdb.com 
 machine da01.th41.fluxdb.com th41 115.67.19.94 
-protocol da02.th41.fluxdb.com http https https-bulk https-linear https-small  
+protocol da02.th41.fluxdb.com 
 machine da02.th41.fluxdb.com th41 115.67.19.98 
-protocol da01.th42.fluxdb.com http https https-bulk https-linear https-small  
+protocol da01.th42.fluxdb.com 
 machine da01.th42.fluxdb.com th42 115.67.96.34 
-protocol da02.th42.fluxdb.com http https https-bulk https-linear https-small  
+protocol da02.th42.fluxdb.com 
 machine da02.th42.fluxdb.com th42 115.67.96.38 
-protocol mt01.vn06.fluxdb.com http https     
+protocol mt01.vn06.fluxdb.com 
 machine mt01.vn06.fluxdb.com vn06-midtier 103.90.223.4 
-protocol ta01.vn05.fluxdb.com ta-ingest ta-egress     
+protocol ta01.vn05.fluxdb.com 
 machine ta01.vn05.fluxdb.com vn05-ta 103.90.220.236 
-protocol ta02.vn06.fluxdb.com ta-ingest ta-egress     
+protocol ta02.vn06.fluxdb.com 
 machine ta02.vn06.fluxdb.com vn06-ta 103.90.223.2 
-protocol da05.vn09.fluxdb.com http https https-linear    
+protocol da05.vn09.fluxdb.com 
 machine da05.vn09.fluxdb.com vn09 103.90.222.13 
-protocol da06.vn09.fluxdb.com http https https-bulk    
+protocol da06.vn09.fluxdb.com 
 machine da06.vn09.fluxdb.com vn09 103.90.222.8 
-protocol da08.vn09.fluxdb.com http https https-linear https-bulk   
+protocol da08.vn09.fluxdb.com 
 machine da08.vn09.fluxdb.com vn09 103.90.222.10 
-protocol da01.vn09.fluxdb.com http https https-bulk    
+protocol da01.vn09.fluxdb.com 
 machine da01.vn09.fluxdb.com vn09 103.90.222.4 
-protocol nda01.vn09.fluxdb.com nda
+protocol nda01.vn09.fluxdb.com 
 machine nda01.vn09.fluxdb.com vn09-httpflv 103.90.222.13 
-protocol da01.vn11.fluxdb.com http https https-linear https-small   
+protocol da01.vn11.fluxdb.com 
 machine da01.vn11.fluxdb.com vn11 103.151.240.2 
-protocol da02.vn11.fluxdb.com http https https-linear https-small   
+protocol da02.vn11.fluxdb.com 
 machine da02.vn11.fluxdb.com vn11 103.151.240.3 
-protocol da03.vn11.fluxdb.com http https https-linear https-small   
+protocol da03.vn11.fluxdb.com 
 machine da03.vn11.fluxdb.com vn11 103.151.240.4 
-protocol da04.vn11.fluxdb.com http https https-linear https-small   
+protocol da04.vn11.fluxdb.com 
 machine da04.vn11.fluxdb.com vn11 103.151.240.5 
-protocol da05.vn11.fluxdb.com http https https-linear https-small   
+protocol da05.vn11.fluxdb.com 
 machine da05.vn11.fluxdb.com vn11 103.151.240.6 
-protocol da06.vn11.fluxdb.com http https https-linear https-small   
+protocol da06.vn11.fluxdb.com 
 machine da06.vn11.fluxdb.com vn11 103.151.240.7 
-protocol da07.vn11.fluxdb.com http https https-linear https-small   
+protocol da07.vn11.fluxdb.com 
 machine da07.vn11.fluxdb.com vn11 103.151.240.8 
-protocol mt01.vn12.fluxdb.com http      
+protocol mt01.vn12.fluxdb.com 
 machine mt01.vn12.fluxdb.com vn12-video-midtier 103.90.222.18 
-protocol mt02.vn12.fluxdb.com http      
+protocol mt02.vn12.fluxdb.com 
 machine mt02.vn12.fluxdb.com vn12-video-midtier 103.90.222.19 
-protocol mt03.vn12.fluxdb.com http      
+protocol mt03.vn12.fluxdb.com 
 machine mt03.vn12.fluxdb.com vn12-video-midtier 103.90.222.27 
-protocol da001.vn13.fluxdb.com http https https-linear https-small   
+protocol da001.vn13.fluxdb.com 
 machine da001.vn13.fluxdb.com vn13 103.90.221.2 
-protocol da002.vn13.fluxdb.com http https https-linear https-small   
+protocol da002.vn13.fluxdb.com 
 machine da002.vn13.fluxdb.com vn13 103.90.221.3 
-protocol da003.vn13.fluxdb.com http https https-linear https-small   
+protocol da003.vn13.fluxdb.com 
 machine da003.vn13.fluxdb.com vn13 103.90.221.4 
-protocol da004.vn13.fluxdb.com http https https-linear https-small   
+protocol da004.vn13.fluxdb.com 
 machine da004.vn13.fluxdb.com vn13 103.90.221.5 
-protocol da005.vn13.fluxdb.com http https https-linear https-small   
+protocol da005.vn13.fluxdb.com 
 machine da005.vn13.fluxdb.com vn13 103.90.221.6 
-protocol da02.vn30.fluxdb.com http https https-linear https-small   
+protocol da02.vn30.fluxdb.com 
 machine da02.vn30.fluxdb.com vn30 222.255.212.133 
-protocol da01.mx01.swiftserve.com http https     
+protocol da01.mx01.swiftserve.com 
 machine da01.mx01.swiftserve.com mx01 63.222.89.68 
-protocol da02.mx01.swiftserve.com http https     
+protocol da02.mx01.swiftserve.com 
 machine da02.mx01.swiftserve.com mx01 63.222.89.69 
-protocol da01.qa01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.qa01.swiftserve.com 
 machine da01.qa01.swiftserve.com qa01 82.148.99.251 
-protocol da02.qa01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.qa01.swiftserve.com 
 machine da02.qa01.swiftserve.com qa01 82.148.99.252 
-protocol da001.br01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.br01.swiftserve.com 
 machine da001.br01.swiftserve.com br01 185.219.124.242 
-protocol da002.br01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da002.br01.swiftserve.com 
 machine da002.br01.swiftserve.com br01 185.219.124.245 
-protocol da01.us05.swiftserve.com http https https-linear https-small   
+protocol da01.us05.swiftserve.com 
 machine da01.us05.swiftserve.com us05 162.220.220.146 
-protocol da01.us06.swiftserve.com http https https-linear https-small   
+protocol da01.us06.swiftserve.com 
 machine da01.us06.swiftserve.com us06 185.81.209.130 
-protocol da02.bd01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.bd01.swiftserve.com 
 machine da02.bd01.swiftserve.com bd01 103.147.182.180 
-protocol da03.bd01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da03.bd01.swiftserve.com 
 machine da03.bd01.swiftserve.com bd01 103.147.182.181 
-protocol da01.bg01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.bg01.swiftserve.com 
 machine da01.bg01.swiftserve.com bg01 85.217.188.5 
-protocol da01.ec01.swiftserve.com http https     
+protocol da01.ec01.swiftserve.com 
 machine da01.ec01.swiftserve.com ec01 170.238.0.34 
-protocol da02.ec01.swiftserve.com http https     
+protocol da02.ec01.swiftserve.com 
 machine da02.ec01.swiftserve.com ec01 170.238.0.35 
-protocol da01.eg01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.eg01.swiftserve.com 
 machine da01.eg01.swiftserve.com eg01 41.33.88.117 
-protocol da01.fj01.swiftserve.com http https     
+protocol da01.fj01.swiftserve.com 
 machine da01.fj01.swiftserve.com fj01 103.116.156.9 
-protocol da02.fj01.swiftserve.com http https     
+protocol da02.fj01.swiftserve.com 
 machine da02.fj01.swiftserve.com fj01 103.116.156.10 
-protocol da01.fj02.swiftserve.com http https     
+protocol da01.fj02.swiftserve.com 
 machine da01.fj02.swiftserve.com fj02 27.123.182.4 
-protocol da02.fj02.swiftserve.com http https     
+protocol da02.fj02.swiftserve.com 
 machine da02.fj02.swiftserve.com fj02 27.123.182.5 
-protocol da03.fj02.swiftserve.com http https     
+protocol da03.fj02.swiftserve.com 
 machine da03.fj02.swiftserve.com fj02 27.123.182.6 
-protocol da04.fj02.swiftserve.com http https     
+protocol da04.fj02.swiftserve.com 
 machine da04.fj02.swiftserve.com fj02 27.123.182.7 
-protocol da05.fj02.swiftserve.com http https     
+protocol da05.fj02.swiftserve.com 
 machine da05.fj02.swiftserve.com fj02 27.123.182.8 
-protocol da06.fj02.swiftserve.com http https     
+protocol da06.fj02.swiftserve.com 
 machine da06.fj02.swiftserve.com fj02 27.123.182.9 
-protocol da07.fj02.swiftserve.com http https     
+protocol da07.fj02.swiftserve.com 
 machine da07.fj02.swiftserve.com fj02 27.123.182.10 
-protocol da08.fj02.swiftserve.com http https     
+protocol da08.fj02.swiftserve.com 
 machine da08.fj02.swiftserve.com fj02 27.123.182.11 
-protocol da01.fj03.swiftserve.com http https     
+protocol da01.fj03.swiftserve.com 
 machine da01.fj03.swiftserve.com fj03 45.117.247.212 
-protocol da02.fj03.swiftserve.com http https     
+protocol da02.fj03.swiftserve.com 
 machine da02.fj03.swiftserve.com fj03 45.117.247.213 
-protocol da03.fj03.swiftserve.com http https     
+protocol da03.fj03.swiftserve.com 
 machine da03.fj03.swiftserve.com fj03 45.117.247.214 
-protocol da04.fj03.swiftserve.com http https     
+protocol da04.fj03.swiftserve.com 
 machine da04.fj03.swiftserve.com fj03 45.117.247.215 
-protocol da01.fj04.swiftserve.com http https     
+protocol da01.fj04.swiftserve.com 
 machine da01.fj04.swiftserve.com fj04 202.137.182.13 
-protocol da02.fj04.swiftserve.com http https     
+protocol da02.fj04.swiftserve.com 
 machine da02.fj04.swiftserve.com fj04 202.137.182.11 
-protocol da01.gu01.swiftserve.com http https https-linear https-bulk   
+protocol da01.gu01.swiftserve.com 
 machine da01.gu01.swiftserve.com gu01 202.123.152.146 
-protocol da01.hk03.swiftserve.com http https https-bulk https-linear   
+protocol da01.hk03.swiftserve.com 
 machine da01.hk03.swiftserve.com hk03 14.136.132.148 
-protocol da02.hk03.swiftserve.com http https https-bulk https-small   
+protocol da02.hk03.swiftserve.com 
 machine da02.hk03.swiftserve.com hk03 14.136.132.149 
-protocol da01.hk11.swiftserve.com http https https-bulk https-linear   
+protocol da01.hk11.swiftserve.com 
 machine da01.hk11.swiftserve.com hk11 118.143.20.20 
-protocol da01.hk13.swiftserve.com http https https-bulk https-linear   
+protocol da01.hk13.swiftserve.com 
 machine da01.hk13.swiftserve.com hk13 113.21.194.215 
-protocol da01.id03.swiftserve.com http https https-small    
+protocol da01.id03.swiftserve.com 
 machine da01.id03.swiftserve.com id03 139.194.116.9 
-protocol da06.id03.swiftserve.com http https https-small    
+protocol da06.id03.swiftserve.com 
 machine da06.id03.swiftserve.com id03 139.194.116.2 
-protocol da02.id03.swiftserve.com http https https-small    
+protocol da02.id03.swiftserve.com 
 machine da02.id03.swiftserve.com id03 139.194.116.3 
-protocol da03.id03.swiftserve.com http https https-small    
+protocol da03.id03.swiftserve.com 
 machine da03.id03.swiftserve.com id03 139.194.116.12 
-protocol da04.id03.swiftserve.com http https https-small    
+protocol da04.id03.swiftserve.com 
 machine da04.id03.swiftserve.com id03 139.194.116.11 
-protocol da07.id03.swiftserve.com http https https-linear    
+protocol da07.id03.swiftserve.com 
 machine da07.id03.swiftserve.com id03 139.194.116.4 
-protocol da08.id03.swiftserve.com http https https-linear    
+protocol da08.id03.swiftserve.com 
 machine da08.id03.swiftserve.com id03 139.194.116.6 
-protocol da09.id03.swiftserve.com http https https-bulk https-small   
+protocol da09.id03.swiftserve.com 
 machine da09.id03.swiftserve.com id03 139.194.116.7 
-protocol da10.id03.swiftserve.com http https https-linear    
+protocol da10.id03.swiftserve.com 
 machine da10.id03.swiftserve.com id03 139.194.116.8 
-protocol da11.id03.swiftserve.com http https https-linear    
+protocol da11.id03.swiftserve.com 
 machine da11.id03.swiftserve.com id03 139.194.116.5 
-protocol da12.id03.swiftserve.com http https https-bulk https-small   
+protocol da12.id03.swiftserve.com 
 machine da12.id03.swiftserve.com id03 139.194.116.10 
-protocol da002.id10.swiftserve.com http https https-linear https-bulk   
+protocol da002.id10.swiftserve.com 
 machine da002.id10.swiftserve.com id10-tiktok 180.250.81.13 
-protocol da003.id10.swiftserve.com http https https-linear https-bulk   
+protocol da003.id10.swiftserve.com 
 machine da003.id10.swiftserve.com id10-tiktok 180.250.81.14 
-protocol da001.id10.swiftserve.com http https https-linear https-bulk   
+protocol da001.id10.swiftserve.com 
 machine da001.id10.swiftserve.com id10 180.250.81.12 
-protocol da004.id10.swiftserve.com http https https-linear https-bulk   
+protocol da004.id10.swiftserve.com 
 machine da004.id10.swiftserve.com id10 180.250.81.15 
-protocol da17.id10.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da17.id10.swiftserve.com 
 machine da17.id10.swiftserve.com id10 180.250.81.10 
-protocol da20.id10.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da20.id10.swiftserve.com 
 machine da20.id10.swiftserve.com id10 180.250.81.35 
-protocol da22.id10.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da22.id10.swiftserve.com 
 machine da22.id10.swiftserve.com id10 180.250.81.22 
-protocol da23.id10.swiftserve.com http https https-linear https-bulk   
+protocol da23.id10.swiftserve.com 
 machine da23.id10.swiftserve.com id10 180.250.81.23 
-protocol da24.id10.swiftserve.com http https https-linear https-bulk   
+protocol da24.id10.swiftserve.com 
 machine da24.id10.swiftserve.com id10 180.250.81.32 
-protocol nda01.id10.swiftserve.com nda      
+protocol nda01.id10.swiftserve.com 
 machine nda01.id10.swiftserve.com id10-httpflv 180.250.81.4 
-protocol mt02.id10.swiftserve.com http      
+protocol mt02.id10.swiftserve.com 
 machine mt02.id10.swiftserve.com id10-midtier 180.250.81.24 
-protocol mt04.id10.swiftserve.com http      
+protocol mt04.id10.swiftserve.com 
 machine mt04.id10.swiftserve.com id10-midtier 180.250.81.33 
-protocol mt03.id10.swiftserve.com http      
+protocol mt03.id10.swiftserve.com 
 machine mt03.id10.swiftserve.com id10-video-midtier 180.250.81.31 
-protocol mt05.id10.swiftserve.com http      
+protocol mt05.id10.swiftserve.com 
 machine mt05.id10.swiftserve.com id10-video-midtier 180.250.81.34 
-protocol mt06.id10.swiftserve.com http      
+protocol mt06.id10.swiftserve.com 
 machine mt06.id10.swiftserve.com id10-video-midtier 180.250.81.28 
-protocol ta01.id10.swiftserve.com ta-ingest ta-egress     
+protocol ta01.id10.swiftserve.com 
 machine ta01.id10.swiftserve.com id10-ta 180.250.81.36 
-protocol ta02.id10.swiftserve.com ta-ingest ta-egress     
+protocol ta02.id10.swiftserve.com 
 machine ta02.id10.swiftserve.com id10-ta 180.250.81.37 
-protocol da16.id11.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da16.id11.swiftserve.com 
 machine da16.id11.swiftserve.com id11 180.250.169.18 
-protocol da17.id11.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da17.id11.swiftserve.com 
 machine da17.id11.swiftserve.com id11 180.250.169.19 
-protocol da18.id11.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da18.id11.swiftserve.com 
 machine da18.id11.swiftserve.com id11 180.250.169.20 
-protocol da03.id14.swiftserve.com http https https-bulk https-linear   
+protocol da03.id14.swiftserve.com 
 machine da03.id14.swiftserve.com id14 180.250.169.82 
-protocol da05.id14.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da05.id14.swiftserve.com 
 machine da05.id14.swiftserve.com id14 180.250.169.84 
-protocol da01.id16.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da01.id16.swiftserve.com 
 machine da01.id16.swiftserve.com id16 180.250.169.98 
-protocol da04.id16.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da04.id16.swiftserve.com 
 machine da04.id16.swiftserve.com id16 180.250.169.100 
-protocol da01.id18.swiftserve.com http https https-linear    
+protocol da01.id18.swiftserve.com 
 machine da01.id18.swiftserve.com id18 180.250.169.116 
-protocol da02.id18.swiftserve.com http https https-linear    
+protocol da02.id18.swiftserve.com 
 machine da02.id18.swiftserve.com id18 180.250.169.118 
-protocol da01.id19.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da01.id19.swiftserve.com 
 machine da01.id19.swiftserve.com id19 180.250.169.66 
-protocol da03.id19.swiftserve.com http https https-bulk https-linear   
+protocol da03.id19.swiftserve.com 
 machine da03.id19.swiftserve.com id19 180.250.169.68 
-protocol da01.id23.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da01.id23.swiftserve.com 
 machine da01.id23.swiftserve.com id23 180.250.127.50 
-protocol da02.id23.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da02.id23.swiftserve.com 
 machine da02.id23.swiftserve.com id23 180.250.127.51 
-protocol da01.id26.swiftserve.com http https https-bulk https-small   
+protocol da01.id26.swiftserve.com 
 machine da01.id26.swiftserve.com id26 103.147.212.41 
-protocol da21.id26.swiftserve.com http https https-bulk https-small   
+protocol da21.id26.swiftserve.com 
 machine da21.id26.swiftserve.com id26 103.147.212.42 
-protocol nda01.id26.swiftserve.com nda      
+protocol nda01.id26.swiftserve.com 
 machine nda01.id26.swiftserve.com id26-httpflv 103.147.212.53 
-protocol mt01.id26.swiftserve.com http      
+protocol mt01.id26.swiftserve.com 
 machine mt01.id26.swiftserve.com id26-video-midtier 103.147.212.44 
-protocol mt02.id26.swiftserve.com http      
+protocol mt02.id26.swiftserve.com 
 machine mt02.id26.swiftserve.com id26-video-midtier 103.147.212.45 
-protocol mt03.id26.swiftserve.com http      
+protocol mt03.id26.swiftserve.com 
 machine mt03.id26.swiftserve.com id26-video-midtier 103.147.212.46 
-protocol mt04.id26.swiftserve.com http      
+protocol mt04.id26.swiftserve.com 
 machine mt04.id26.swiftserve.com id26-video-midtier 103.147.212.43 
-protocol da007.id26.swiftserve.com http https https-linear    
+protocol da007.id26.swiftserve.com 
 machine da007.id26.swiftserve.com id26-tiktok 103.147.212.47 
-protocol da008.id26.swiftserve.com http https https-linear    
+protocol da008.id26.swiftserve.com 
 machine da008.id26.swiftserve.com id26-tiktok 103.147.212.48 
-protocol da009.id26.swiftserve.com http https https-linear    
+protocol da009.id26.swiftserve.com 
 machine da009.id26.swiftserve.com id26-tiktok 103.147.212.49 
-protocol da010.id26.swiftserve.com http https https-linear    
+protocol da010.id26.swiftserve.com 
 machine da010.id26.swiftserve.com id26-tiktok 103.147.212.50 
-protocol da011.id26.swiftserve.com http https https-linear    
+protocol da011.id26.swiftserve.com 
 machine da011.id26.swiftserve.com id26-tiktok 103.147.212.51 
-protocol da012.id26.swiftserve.com http https https-linear    
+protocol da012.id26.swiftserve.com 
 machine da012.id26.swiftserve.com id26-tiktok 103.147.212.52 
-protocol da014.id26.swiftserve.com http https https-linear    
+protocol da014.id26.swiftserve.com 
 machine da014.id26.swiftserve.com id26-tiktok 103.147.212.54 
-protocol da015.id26.swiftserve.com http https https-linear    
+protocol da015.id26.swiftserve.com 
 machine da015.id26.swiftserve.com id26-tiktok 103.147.212.55 
-protocol da016.id26.swiftserve.com http https https-linear    
+protocol da016.id26.swiftserve.com 
 machine da016.id26.swiftserve.com id26-tiktok 103.147.212.57 
-protocol da017.id26.swiftserve.com http https https-linear    
+protocol da017.id26.swiftserve.com 
 machine da017.id26.swiftserve.com id26-tiktok 103.147.212.58 
-protocol da018.id26.swiftserve.com http https https-linear    
+protocol da018.id26.swiftserve.com 
 machine da018.id26.swiftserve.com id26-tiktok 103.147.212.59 
-protocol da019.id26.swiftserve.com http https https-linear    
+protocol da019.id26.swiftserve.com 
 machine da019.id26.swiftserve.com id26-tiktok 103.147.212.60 
-protocol da001.id27.swiftserve.com http https https-linear https-bulk   
+protocol da001.id27.swiftserve.com 
 machine da001.id27.swiftserve.com id27 81.199.96.41 
-protocol da005.id27.swiftserve.com http https https-linear https-bulk   
+protocol da005.id27.swiftserve.com 
 machine da005.id27.swiftserve.com id27 81.199.96.45 
-protocol da011.id27.swiftserve.com http https https-linear https-bulk   
+protocol da011.id27.swiftserve.com 
 machine da011.id27.swiftserve.com id27 81.199.96.51 
-protocol da004.id27.swiftserve.com http https https-linear    
+protocol da004.id27.swiftserve.com 
 machine da004.id27.swiftserve.com id27-tiktok 81.199.96.44 
-protocol da006.id27.swiftserve.com http https https-linear    
+protocol da006.id27.swiftserve.com 
 machine da006.id27.swiftserve.com id27-tiktok 81.199.96.46 
-protocol da007.id27.swiftserve.com http https https-linear    
+protocol da007.id27.swiftserve.com 
 machine da007.id27.swiftserve.com id27-tiktok 81.199.96.47 
-protocol mt01.id27.swiftserve.com http      
+protocol mt01.id27.swiftserve.com 
 machine mt01.id27.swiftserve.com id27-video-midtier 81.199.96.52 
-protocol mt02.id27.swiftserve.com http      
+protocol mt02.id27.swiftserve.com 
 machine mt02.id27.swiftserve.com id27-video-midtier 81.199.96.53 
-protocol mt03.id27.swiftserve.com http      
+protocol mt03.id27.swiftserve.com 
 machine mt03.id27.swiftserve.com id27-video-midtier 81.199.96.54 
-protocol da001.id28.swiftserve.com http https https-linear https-small   
+protocol da001.id28.swiftserve.com 
 machine da001.id28.swiftserve.com id28 102.36.230.41 
-protocol da003.id28.swiftserve.com http https https-linear https-small   
+protocol da003.id28.swiftserve.com 
 machine da003.id28.swiftserve.com id28 102.36.230.42 
-protocol da001.id29.swiftserve.com http https https-linear    
+protocol da001.id29.swiftserve.com 
 machine da001.id29.swiftserve.com id29 103.146.30.85 
-protocol da002.id29.swiftserve.com http https https-linear    
+protocol da002.id29.swiftserve.com 
 machine da002.id29.swiftserve.com id29 103.146.30.86 
-protocol mt01.id29.swiftserve.com http      
+protocol mt01.id29.swiftserve.com 
 machine mt01.id29.swiftserve.com id29-video-midtier 103.146.30.83 
-protocol mt02.id29.swiftserve.com http      
+protocol mt02.id29.swiftserve.com 
 machine mt02.id29.swiftserve.com id29-video-midtier 103.146.30.84 
-protocol da02.id30.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da02.id30.swiftserve.com 
 machine da02.id30.swiftserve.com id30 158.140.187.140 
-protocol da03.id30.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da03.id30.swiftserve.com 
 machine da03.id30.swiftserve.com id30 158.140.187.139 
-protocol da001.id31.swiftserve.com http https https-linear https-small   
+protocol da001.id31.swiftserve.com 
 machine da001.id31.swiftserve.com id31 46.8.96.41 
-protocol da003.id31.swiftserve.com http https https-linear https-small   
+protocol da003.id31.swiftserve.com 
 machine da003.id31.swiftserve.com id31 46.8.96.42 
-protocol da001.id32.swiftserve.com http https https-linear https-small   
+protocol da001.id32.swiftserve.com 
 machine da001.id32.swiftserve.com id32 81.199.98.41 
-protocol da002.id32.swiftserve.com http https https-linear https-small   
+protocol da002.id32.swiftserve.com 
 machine da002.id32.swiftserve.com id32 81.199.98.42 
-protocol da003.id32.swiftserve.com http https https-linear https-small   
+protocol da003.id32.swiftserve.com 
 machine da003.id32.swiftserve.com id32 81.199.98.43 
-protocol da004.id32.swiftserve.com http https https-linear https-small   
+protocol da004.id32.swiftserve.com 
 machine da004.id32.swiftserve.com id32 81.199.98.44 
-protocol da005.id32.swiftserve.com http https https-linear https-small   
+protocol da005.id32.swiftserve.com 
 machine da005.id32.swiftserve.com id32 81.199.98.45 
-protocol da007.id32.swiftserve.com http https https-linear https-small   
+protocol da007.id32.swiftserve.com 
 machine da007.id32.swiftserve.com id32 81.199.98.46 
-protocol da001.id33.swiftserve.com http https https-linear https-bulk https-small  
+protocol da001.id33.swiftserve.com 
 machine da001.id33.swiftserve.com id33 180.250.81.46 
-protocol da002.id33.swiftserve.com http https https-linear https-bulk https-small  
+protocol da002.id33.swiftserve.com 
 machine da002.id33.swiftserve.com id33 180.250.81.47 
-protocol da01.id34.swiftserve.com http https https-linear    
+protocol da01.id34.swiftserve.com 
 machine da01.id34.swiftserve.com id34 180.250.169.39 
-protocol da05.id51.swiftserve.com http https https-bulk https-linear https-small  
+protocol da05.id51.swiftserve.com 
 machine da05.id51.swiftserve.com id51 202.180.17.41 
-protocol da07.id51.swiftserve.com http https https-bulk https-linear https-small  
+protocol da07.id51.swiftserve.com 
 machine da07.id51.swiftserve.com id51 202.180.17.34 
-protocol da010.id51.swiftserve.com http https https-bulk https-linear   
+protocol da010.id51.swiftserve.com 
 machine da010.id51.swiftserve.com id51-tiktok 202.180.17.36 
-protocol da011.id51.swiftserve.com http https https-bulk https-linear   
+protocol da011.id51.swiftserve.com 
 machine da011.id51.swiftserve.com id51-tiktok 202.180.17.37 
-protocol da012.id51.swiftserve.com http https https-bulk https-linear   
+protocol da012.id51.swiftserve.com 
 machine da012.id51.swiftserve.com id51-tiktok 202.180.17.42 
-protocol da013.id51.swiftserve.com http https https-bulk https-linear   
+protocol da013.id51.swiftserve.com 
 machine da013.id51.swiftserve.com id51-tiktok 202.180.17.43 
-protocol da015.id51.swiftserve.com http https https-bulk https-linear   
+protocol da015.id51.swiftserve.com 
 machine da015.id51.swiftserve.com id51-tiktok 202.180.17.35 
-protocol mt01.id51.swiftserve.com http      
+protocol mt01.id51.swiftserve.com 
 machine mt01.id51.swiftserve.com id51-midtier 120.29.153.194 
-protocol mt02.id51.swiftserve.com http      
+protocol mt02.id51.swiftserve.com 
 machine mt02.id51.swiftserve.com id51-midtier 120.29.153.197 
-protocol mt03.id51.swiftserve.com http      
+protocol mt03.id51.swiftserve.com 
 machine mt03.id51.swiftserve.com id51-midtier 202.180.17.38 
-protocol mt04.id51.swiftserve.com http      
+protocol mt04.id51.swiftserve.com 
 machine mt04.id51.swiftserve.com id51-midtier 202.180.17.39 
-protocol da03.id52.swiftserve.com http https https-bulk https-linear   
+protocol da03.id52.swiftserve.com 
 machine da03.id52.swiftserve.com id52 119.82.228.7 
-protocol da001.id52.swiftserve.com http https https-bulk https-linear   
+protocol da001.id52.swiftserve.com 
 machine da001.id52.swiftserve.com id52 119.82.228.5 
-protocol da002.id52.swiftserve.com http https https-bulk https-linear   
+protocol da002.id52.swiftserve.com 
 machine da002.id52.swiftserve.com id52 119.82.228.6 
-protocol da001.id57.swiftserve.com http https https-bulk https-linear   
+protocol da001.id57.swiftserve.com 
 machine da001.id57.swiftserve.com id57 103.159.146.11 
-protocol da08.id58.swiftserve.com http https https-bulk https-linear   
+protocol da08.id58.swiftserve.com 
 machine da08.id58.swiftserve.com id58 103.150.223.4 
-protocol da15.id58.swiftserve.com http https https-bulk https-linear   
+protocol da15.id58.swiftserve.com 
 machine da15.id58.swiftserve.com id58 103.150.223.249 
-protocol mt01.id58.swiftserve.com http      
+protocol mt01.id58.swiftserve.com 
 machine mt01.id58.swiftserve.com id58-midtier 103.150.223.250 
-protocol mt02.id58.swiftserve.com http      
+protocol mt02.id58.swiftserve.com 
 machine mt02.id58.swiftserve.com id58-midtier 103.150.223.252 
-protocol mt03.id58.swiftserve.com http      
+protocol mt03.id58.swiftserve.com 
 machine mt03.id58.swiftserve.com id58-midtier 103.150.223.247 
-protocol da001.id58.swiftserve.com http https https-bulk https-linear   
+protocol da001.id58.swiftserve.com 
 machine da001.id58.swiftserve.com id58-tiktok 103.150.223.245 
-protocol da002.id58.swiftserve.com http https https-bulk https-linear   
+protocol da002.id58.swiftserve.com 
 machine da002.id58.swiftserve.com id58-tiktok 103.150.223.244 
-protocol da003.id58.swiftserve.com http https https-bulk https-linear   
+protocol da003.id58.swiftserve.com 
 machine da003.id58.swiftserve.com id58-tiktok 103.150.223.243 
-protocol da004.id58.swiftserve.com http https https-bulk https-linear   
+protocol da004.id58.swiftserve.com 
 machine da004.id58.swiftserve.com id58-tiktok 103.150.223.242 
-protocol da005.id58.swiftserve.com http https https-bulk https-linear   
+protocol da005.id58.swiftserve.com 
 machine da005.id58.swiftserve.com id58-tiktok 103.150.223.241 
-protocol da006.id58.swiftserve.com http https https-bulk https-linear   
+protocol da006.id58.swiftserve.com 
 machine da006.id58.swiftserve.com id58-tiktok 103.150.223.240 
-protocol da01.id61.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da01.id61.swiftserve.com 
 machine da01.id61.swiftserve.com id61 103.234.120.100 
-protocol da03.id61.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da03.id61.swiftserve.com 
 machine da03.id61.swiftserve.com id61 103.234.120.105 
-protocol da004.id61.swiftserve.com http https https-bulk https-linear   
+protocol da004.id61.swiftserve.com 
 machine da004.id61.swiftserve.com id61-tiktok 103.234.120.104 
-protocol da005.id61.swiftserve.com http https https-bulk https-linear   
+protocol da005.id61.swiftserve.com 
 machine da005.id61.swiftserve.com id61-tiktok 103.234.120.106 
-protocol da06.id61.swiftserve.com http https https-bulk https-linear   
+protocol da06.id61.swiftserve.com 
 machine da06.id61.swiftserve.com id61-tiktok 103.234.120.103 
-protocol da01.id62.swiftserve.com http https https-bulk https-small   
+protocol da01.id62.swiftserve.com 
 machine da01.id62.swiftserve.com id62 103.234.122.100 
-protocol da02.id62.swiftserve.com http https https-bulk https-small   
+protocol da02.id62.swiftserve.com 
 machine da02.id62.swiftserve.com id62 103.234.122.101 
-protocol da003.id62.swiftserve.com http https https-bulk https-linear https-small  
+protocol da003.id62.swiftserve.com 
 machine da003.id62.swiftserve.com id62 103.234.122.102 
-protocol da004.id62.swiftserve.com http https https-bulk https-linear https-small  
+protocol da004.id62.swiftserve.com 
 machine da004.id62.swiftserve.com id62 103.234.122.103 
-protocol da001.id63.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.id63.swiftserve.com 
 machine da001.id63.swiftserve.com id63 202.73.224.12 
-protocol da01.id64.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da01.id64.swiftserve.com 
 machine da01.id64.swiftserve.com id64 112.215.103.227 
-protocol da02.id64.swiftserve.com http https sh-rtmp https-bulk https-linear  
+protocol da02.id64.swiftserve.com 
 machine da02.id64.swiftserve.com id64 112.215.103.228 
-protocol da001.id64.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.id64.swiftserve.com 
 machine da001.id64.swiftserve.com id64-tiktok 112.215.103.230 
-protocol da002.id64.swiftserve.com http https https-bulk https-linear https-small  
+protocol da002.id64.swiftserve.com 
 machine da002.id64.swiftserve.com id64-tiktok 112.215.103.231 
-protocol da003.id64.swiftserve.com http https https-bulk https-linear https-small  
+protocol da003.id64.swiftserve.com 
 machine da003.id64.swiftserve.com id64-tiktok 112.215.103.232 
-protocol da004.id64.swiftserve.com http https https-bulk https-linear https-small  
+protocol da004.id64.swiftserve.com 
 machine da004.id64.swiftserve.com id64-tiktok 112.215.103.233 
-protocol da005.id64.swiftserve.com http https https-bulk https-linear https-small  
+protocol da005.id64.swiftserve.com 
 machine da005.id64.swiftserve.com id64-tiktok 112.215.103.236 
-protocol mt01.id64.swiftserve.com http      
+protocol mt01.id64.swiftserve.com 
 machine mt01.id64.swiftserve.com id64-video-midtier 112.215.103.234 
-protocol mt02.id64.swiftserve.com http      
+protocol mt02.id64.swiftserve.com 
 machine mt02.id64.swiftserve.com id64-video-midtier 112.215.103.235 
-protocol da01.in22.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.in22.swiftserve.com 
 machine da01.in22.swiftserve.com in22 36.255.255.2 
-protocol da01.jp01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.jp01.swiftserve.com 
 machine da01.jp01.swiftserve.com jp01 1.9.250.3 
-protocol da02.jp01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.jp01.swiftserve.com 
 machine da02.jp01.swiftserve.com jp01 1.9.250.4 
-protocol da03.jp01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da03.jp01.swiftserve.com 
 machine da03.jp01.swiftserve.com jp01 1.9.250.5 
-protocol mt01.jp01.swiftserve.com http      
+protocol mt01.jp01.swiftserve.com 
 machine mt01.jp01.swiftserve.com jp01-mt 1.9.250.7 
-protocol da01.kh01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.kh01.swiftserve.com 
 machine da01.kh01.swiftserve.com kh01 180.178.124.250 
-protocol da01.kh02.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.kh02.swiftserve.com 
 machine da01.kh02.swiftserve.com kh02 180.178.124.25 
-protocol da01.kr01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.kr01.swiftserve.com 
 machine da01.kr01.swiftserve.com kr01 37.252.244.166 
-protocol da02.kr01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.kr01.swiftserve.com 
 machine da02.kr01.swiftserve.com kr01 37.252.244.167 
-protocol da01.kw01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.kw01.swiftserve.com 
 machine da01.kw01.swiftserve.com kw01 151.248.104.83 
-protocol da02.kw01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.kw01.swiftserve.com 
 machine da02.kw01.swiftserve.com kw01 151.248.104.84 
-protocol da01.kw02.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.kw02.swiftserve.com 
 machine da01.kw02.swiftserve.com kw02 212.43.17.218 
-protocol da01.lk01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.lk01.swiftserve.com 
 machine da01.lk01.swiftserve.com lk01 125.214.171.9 
-protocol da01.mm01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.mm01.swiftserve.com 
 machine da01.mm01.swiftserve.com mm01 103.213.228.146 
-protocol da02.mm01.swiftserve.com http https https-bulk https-linear   
+protocol da02.mm01.swiftserve.com 
 machine da02.mm01.swiftserve.com mm01-canalplus 103.113.85.86 
-protocol ta01.mm01.swiftserve.com ta-ingest ta-egress     
+protocol ta01.mm01.swiftserve.com 
 machine ta01.mm01.swiftserve.com mm01-ta 103.113.84.70 
-protocol da01.mm02.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.mm02.swiftserve.com 
 machine da01.mm02.swiftserve.com mm02 116.206.136.65 
-protocol da02.mm03.swiftserve.com http https https-bulk https-linear   
+protocol da02.mm03.swiftserve.com 
 machine da02.mm03.swiftserve.com mm03 202.191.96.129 
-protocol da03.mm03.swiftserve.com http https https-bulk https-linear   
+protocol da03.mm03.swiftserve.com 
 machine da03.mm03.swiftserve.com mm03 202.191.96.133 
-protocol da01.mm04.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.mm04.swiftserve.com 
 machine da01.mm04.swiftserve.com mm04 116.206.136.170 
-protocol da02.mm04.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.mm04.swiftserve.com 
 machine da02.mm04.swiftserve.com mm04 116.206.136.171 
-protocol da001.my07.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.my07.swiftserve.com 
 machine da001.my07.swiftserve.com my07 115.164.13.242 
-protocol da002.my07.swiftserve.com http https https-bulk https-linear https-small  
+protocol da002.my07.swiftserve.com 
 machine da002.my07.swiftserve.com my07 115.164.13.243 
-protocol da003.my07.swiftserve.com http https https-bulk https-linear https-small  
+protocol da003.my07.swiftserve.com 
 machine da003.my07.swiftserve.com my07 115.164.13.244 
-protocol da05.my07.swiftserve.com http https https-bulk https-small   
+protocol da05.my07.swiftserve.com 
 machine da05.my07.swiftserve.com my07 115.164.13.246 
-protocol da02.my08.swiftserve.com http https https-bulk https-linear   
+protocol da02.my08.swiftserve.com 
 machine da02.my08.swiftserve.com my08 1.9.217.107 
-protocol mt01.my09.swiftserve.com http      
+protocol mt01.my09.swiftserve.com 
 machine mt01.my09.swiftserve.com my09-midtier 58.27.5.39 
-protocol mt02.my09.swiftserve.com http      
+protocol mt02.my09.swiftserve.com 
 machine mt02.my09.swiftserve.com my09-midtier 58.27.5.42 
-protocol mt03.my09.swiftserve.com http      
+protocol mt03.my09.swiftserve.com 
 machine mt03.my09.swiftserve.com my09-midtier 58.27.5.37 
-protocol mt04.my09.swiftserve.com http      
+protocol mt04.my09.swiftserve.com 
 machine mt04.my09.swiftserve.com my09-midtier 58.27.5.36 
-protocol mt05.my09.swiftserve.com http      
+protocol mt05.my09.swiftserve.com 
 machine mt05.my09.swiftserve.com my09-midtier 58.27.5.40 
-protocol da04.my10.swiftserve.com http https https-linear https-bulk   
+protocol da04.my10.swiftserve.com 
 machine da04.my10.swiftserve.com my10 58.27.5.230 
-protocol da001.my10.swiftserve.com http https https-linear https-small   
+protocol da001.my10.swiftserve.com 
 machine da001.my10.swiftserve.com my10 58.27.5.227 
-protocol da002.my10.swiftserve.com http https https-linear https-small   
+protocol da002.my10.swiftserve.com 
 machine da002.my10.swiftserve.com my10 58.27.5.228 
-protocol da003.my10.swiftserve.com http https https-linear https-bulk https-small  
+protocol da003.my10.swiftserve.com 
 machine da003.my10.swiftserve.com my10-tiktok 58.27.5.229 
-protocol da005.my10.swiftserve.com http https https-linear https-bulk https-small  
+protocol da005.my10.swiftserve.com 
 machine da005.my10.swiftserve.com my10-tiktok 58.27.5.231 
-protocol da006.my10.swiftserve.com http https https-linear https-bulk https-small  
+protocol da006.my10.swiftserve.com 
 machine da006.my10.swiftserve.com my10-tiktok 58.27.5.232 
-protocol da004.my11.swiftserve.com http https https-linear https-bulk   
+protocol da004.my11.swiftserve.com 
 machine da004.my11.swiftserve.com my11-unifi 219.93.26.38 
-protocol da005.my11.swiftserve.com http https https-linear https-bulk   
+protocol da005.my11.swiftserve.com 
 machine da005.my11.swiftserve.com my11-unifi 219.93.26.39 
-protocol da006.my11.swiftserve.com http https https-linear https-bulk   
+protocol da006.my11.swiftserve.com 
 machine da006.my11.swiftserve.com my11-tiktok 219.93.26.40 
-protocol da007.my11.swiftserve.com http https https-linear https-bulk   
+protocol da007.my11.swiftserve.com 
 machine da007.my11.swiftserve.com my11-tiktok 219.93.26.41 
-protocol mt001.my11.swiftserve.com http      
+protocol mt001.my11.swiftserve.com 
 machine mt001.my11.swiftserve.com my11-video-midtier 219.93.26.35 
-protocol mt002.my11.swiftserve.com http      
+protocol mt002.my11.swiftserve.com 
 machine mt002.my11.swiftserve.com my11-video-midtier 219.93.26.36 
-protocol mt003.my11.swiftserve.com http      
+protocol mt003.my11.swiftserve.com 
 machine mt003.my11.swiftserve.com my11-video-midtier 219.93.26.37 
-protocol mt01.my11.swiftserve.com http      
+protocol mt01.my11.swiftserve.com 
 machine mt01.my11.swiftserve.com my11-midtier 219.93.26.42 
-protocol mt02.my11.swiftserve.com http      
+protocol mt02.my11.swiftserve.com 
 machine mt02.my11.swiftserve.com my11-midtier 219.93.26.43 
-protocol da001.my12.swiftserve.com http https https-linear https-bulk   
+protocol da001.my12.swiftserve.com 
 machine da001.my12.swiftserve.com my12 58.27.5.112 
-protocol da002.my12.swiftserve.com http https https-linear https-bulk   
+protocol da002.my12.swiftserve.com 
 machine da002.my12.swiftserve.com my12 58.27.5.113 
-protocol da020.my12.swiftserve.com http https https-linear https-bulk   
+protocol da020.my12.swiftserve.com 
 machine da020.my12.swiftserve.com my12 58.27.5.117 
-protocol da010.my12.swiftserve.com http https https-linear https-bulk   
+protocol da010.my12.swiftserve.com 
 machine da010.my12.swiftserve.com my12-unifi 58.27.5.100 
-protocol da011.my12.swiftserve.com http https https-linear https-bulk   
+protocol da011.my12.swiftserve.com 
 machine da011.my12.swiftserve.com my12-unifi 58.27.5.101 
-protocol da012.my12.swiftserve.com http https https-linear https-bulk   
+protocol da012.my12.swiftserve.com 
 machine da012.my12.swiftserve.com my12-unifi 58.27.5.102 
-protocol da013.my12.swiftserve.com http https https-linear https-bulk   
+protocol da013.my12.swiftserve.com 
 machine da013.my12.swiftserve.com my12-unifi 58.27.5.103 
-protocol da014.my12.swiftserve.com http https https-linear https-bulk   
+protocol da014.my12.swiftserve.com 
 machine da014.my12.swiftserve.com my12-unifi 58.27.5.104 
-protocol da015.my12.swiftserve.com http https https-linear https-bulk   
+protocol da015.my12.swiftserve.com 
 machine da015.my12.swiftserve.com my12-unifi 58.27.5.107 
-protocol da016.my12.swiftserve.com http https https-linear https-bulk   
+protocol da016.my12.swiftserve.com 
 machine da016.my12.swiftserve.com my12-unifi 58.27.5.108 
-protocol da017.my12.swiftserve.com http https https-linear https-bulk   
+protocol da017.my12.swiftserve.com 
 machine da017.my12.swiftserve.com my12-unifi 58.27.5.109 
-protocol da003.my12.swiftserve.com http https https-linear https-bulk   
+protocol da003.my12.swiftserve.com 
 machine da003.my12.swiftserve.com my12-tiktok 58.27.5.114 
-protocol da005.my12.swiftserve.com http https https-linear https-bulk   
+protocol da005.my12.swiftserve.com 
 machine da005.my12.swiftserve.com my12-tiktok 58.27.5.116 
-protocol da018.my12.swiftserve.com http https https-linear https-bulk   
+protocol da018.my12.swiftserve.com 
 machine da018.my12.swiftserve.com my12-tiktok 58.27.5.110 
-protocol da019.my12.swiftserve.com http https https-linear https-bulk   
+protocol da019.my12.swiftserve.com 
 machine da019.my12.swiftserve.com my12-tiktok 58.27.5.111 
-protocol mt01.my12.swiftserve.com http      
+protocol mt01.my12.swiftserve.com 
 machine mt01.my12.swiftserve.com my12-myvideo-midtier 58.27.5.119 
-protocol mt02.my12.swiftserve.com http      
+protocol mt02.my12.swiftserve.com 
 machine mt02.my12.swiftserve.com my12-midtier 58.27.5.120 
-protocol mt03.my12.swiftserve.com http      
+protocol mt03.my12.swiftserve.com 
 machine mt03.my12.swiftserve.com my12-midtier 58.27.5.121 
-protocol mt04.my12.swiftserve.com http      
+protocol mt04.my12.swiftserve.com 
 machine mt04.my12.swiftserve.com my12-midtier 58.27.5.122 
-protocol mt010.my12.swiftserve.com http      
+protocol mt010.my12.swiftserve.com 
 machine mt010.my12.swiftserve.com my12-midtier 58.27.5.105 
-protocol mt011.my12.swiftserve.com http      
+protocol mt011.my12.swiftserve.com 
 machine mt011.my12.swiftserve.com my12-midtier 58.27.5.106 
-protocol mt012.my12.swiftserve.com http      
+protocol mt012.my12.swiftserve.com 
 machine mt012.my12.swiftserve.com my12-midtier 58.27.5.118 
-protocol da01.ng03.swiftserve.com http https https-bulk https-small   
+protocol da01.ng03.swiftserve.com 
 machine da01.ng03.swiftserve.com ng03 102.69.243.84 
-protocol da001.ng03.swiftserve.com http https https-linear https-small   
+protocol da001.ng03.swiftserve.com 
 machine da001.ng03.swiftserve.com ng03 102.69.243.102 
-protocol da002.ng03.swiftserve.com http https https-linear https-small   
+protocol da002.ng03.swiftserve.com 
 machine da002.ng03.swiftserve.com ng03 102.69.243.106 
-protocol da01.om01.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.om01.swiftserve.com 
 machine da01.om01.swiftserve.com om01 134.0.220.26 
-protocol da01.ph02.swiftserve.com http https https-bulk https-linear   
+protocol da01.ph02.swiftserve.com 
 machine da01.ph02.swiftserve.com ph02 202.138.188.10 
-protocol da003.ph02.swiftserve.com http https https-bulk https-linear   
+protocol da003.ph02.swiftserve.com 
 machine da003.ph02.swiftserve.com ph02 202.138.188.12 
-protocol da004.ph02.swiftserve.com http https https-bulk https-linear   
+protocol da004.ph02.swiftserve.com 
 machine da004.ph02.swiftserve.com ph02 202.138.188.13 
-protocol da02.ph02.swiftserve.com http https https-linear    
+protocol da02.ph02.swiftserve.com 
 machine da02.ph02.swiftserve.com ph02-viu 202.138.188.11 
-protocol da002.ph03.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da002.ph03.swiftserve.com 
 machine da002.ph03.swiftserve.com ph03 122.2.159.182 
-protocol da01.ph06.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da01.ph06.swiftserve.com 
 machine da01.ph06.swiftserve.com ph06 122.2.134.234 
-protocol da02.ph06.swiftserve.com http https sh-rtmp https-linear   
+protocol da02.ph06.swiftserve.com 
 machine da02.ph06.swiftserve.com ph06-viu 122.2.134.242 
-protocol da01.ph07.swiftserve.com http https https-linear https-bulk   
+protocol da01.ph07.swiftserve.com 
 machine da01.ph07.swiftserve.com ph07 120.28.5.236 
-protocol mt02.ph07.swiftserve.com http      
+protocol mt02.ph07.swiftserve.com 
 machine mt02.ph07.swiftserve.com ph07-midtier 120.28.5.234 
-protocol da01.ph08.swiftserve.com http https https-bulk    
+protocol da01.ph08.swiftserve.com 
 machine da01.ph08.swiftserve.com ph08 120.28.6.130 
-protocol da02.ph09.swiftserve.com http https https-bulk https-linear   
+protocol da02.ph09.swiftserve.com 
 machine da02.ph09.swiftserve.com ph09 121.127.6.123 
-protocol da01.ph11.swiftserve.com http https sh-rtmp https-small   
+protocol da01.ph11.swiftserve.com 
 machine da01.ph11.swiftserve.com ph11 161.49.1.210 
-protocol da05.ph11.swiftserve.com http https https-small https-bulk   
+protocol da05.ph11.swiftserve.com 
 machine da05.ph11.swiftserve.com ph11 161.49.30.66 
-protocol da002.ph11.swiftserve.com http https https-linear    
+protocol da002.ph11.swiftserve.com 
 machine da002.ph11.swiftserve.com ph11-tiktok 161.49.30.67 
-protocol da003.ph11.swiftserve.com http https https-linear    
+protocol da003.ph11.swiftserve.com 
 machine da003.ph11.swiftserve.com ph11-tiktok 161.49.30.68 
-protocol da004.ph11.swiftserve.com http https https-linear    
+protocol da004.ph11.swiftserve.com 
 machine da004.ph11.swiftserve.com ph11-tiktok 161.49.30.69 
-protocol da002.ph12.swiftserve.com http https https-bulk https-linear https-small  
+protocol da002.ph12.swiftserve.com 
 machine da002.ph12.swiftserve.com ph12 116.89.245.50 
-protocol da01.ph14.swiftserve.com http https https-bulk    
+protocol da01.ph14.swiftserve.com 
 machine da01.ph14.swiftserve.com ph14 103.121.81.98 
-protocol da002.ph14.swiftserve.com http https https-bulk https-linear   
+protocol da002.ph14.swiftserve.com 
 machine da002.ph14.swiftserve.com ph14 103.121.81.99 
-protocol da01.ph15.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da01.ph15.swiftserve.com 
 machine da01.ph15.swiftserve.com ph15 120.28.6.146 
-protocol da002.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da002.ph15.swiftserve.com 
 machine da002.ph15.swiftserve.com ph15 120.28.6.147 
-protocol da003.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da003.ph15.swiftserve.com 
 machine da003.ph15.swiftserve.com ph15 120.28.6.148 
-protocol da004.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da004.ph15.swiftserve.com 
 machine da004.ph15.swiftserve.com ph15 120.28.6.149 
-protocol da005.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da005.ph15.swiftserve.com 
 machine da005.ph15.swiftserve.com ph15-tiktok 120.28.6.150 
-protocol da006.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da006.ph15.swiftserve.com 
 machine da006.ph15.swiftserve.com ph15-tiktok 120.28.6.162 
-protocol da007.ph15.swiftserve.com http https https-linear https-bulk https-small  
+protocol da007.ph15.swiftserve.com 
 machine da007.ph15.swiftserve.com ph15-tiktok 120.28.6.163 
-protocol da01.ph16.swiftserve.com http https https-bulk    
+protocol da01.ph16.swiftserve.com 
 machine da01.ph16.swiftserve.com ph16 1.37.42.226 
-protocol da02.ph16.swiftserve.com http https https-bulk    
+protocol da02.ph16.swiftserve.com 
 machine da02.ph16.swiftserve.com ph16 1.37.42.227 
-protocol da03.ph16.swiftserve.com http https https-linear https-bulk   
+protocol da03.ph16.swiftserve.com 
 machine da03.ph16.swiftserve.com ph16 1.37.42.228 
-protocol da04.ph16.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da04.ph16.swiftserve.com 
 machine da04.ph16.swiftserve.com ph16 1.37.42.229 
-protocol da05.ph16.swiftserve.com http https https-linear https-bulk   
+protocol da05.ph16.swiftserve.com 
 machine da05.ph16.swiftserve.com ph16 1.37.42.230 
-protocol da014.ph16.swiftserve.com http https https-linear https-bulk   
+protocol da014.ph16.swiftserve.com 
 machine da014.ph16.swiftserve.com ph16 1.37.42.239 
-protocol da015.ph16.swiftserve.com http https https-linear https-bulk   
+protocol da015.ph16.swiftserve.com 
 machine da015.ph16.swiftserve.com ph16 1.37.42.241 
-protocol mt01.ph16.swiftserve.com http      
+protocol mt01.ph16.swiftserve.com 
 machine mt01.ph16.swiftserve.com ph16-midtier 1.37.42.233 
-protocol mt02.ph16.swiftserve.com http      
+protocol mt02.ph16.swiftserve.com 
 machine mt02.ph16.swiftserve.com ph16-midtier 1.37.42.234 
-protocol mt03.ph16.swiftserve.com http      
+protocol mt03.ph16.swiftserve.com 
 machine mt03.ph16.swiftserve.com ph16-midtier 1.37.42.232 
-protocol mt04.ph16.swiftserve.com http      
+protocol mt04.ph16.swiftserve.com 
 machine mt04.ph16.swiftserve.com ph16-midtier 1.37.42.231 
-protocol da010.ph16.swiftserve.com http https https-linear    
+protocol da010.ph16.swiftserve.com 
 machine da010.ph16.swiftserve.com ph16-tiktok 1.37.42.235 
-protocol da011.ph16.swiftserve.com http https https-linear    
+protocol da011.ph16.swiftserve.com 
 machine da011.ph16.swiftserve.com ph16-tiktok 1.37.42.236 
-protocol da012.ph16.swiftserve.com http https https-linear    
+protocol da012.ph16.swiftserve.com 
 machine da012.ph16.swiftserve.com ph16-tiktok 1.37.42.237 
-protocol da013.ph16.swiftserve.com http https https-linear    
+protocol da013.ph16.swiftserve.com 
 machine da013.ph16.swiftserve.com ph16-tiktok 1.37.42.238 
-protocol da016.ph16.swiftserve.com http https https-linear    
+protocol da016.ph16.swiftserve.com 
 machine da016.ph16.swiftserve.com ph16-tiktok 1.37.42.242 
-protocol da017.ph16.swiftserve.com http https https-linear    
+protocol da017.ph16.swiftserve.com 
 machine da017.ph16.swiftserve.com ph16-tiktok 1.37.42.243 
-protocol da018.ph16.swiftserve.com http https https-linear    
+protocol da018.ph16.swiftserve.com 
 machine da018.ph16.swiftserve.com ph16-tiktok 1.37.42.244 
-protocol da019.ph16.swiftserve.com http https https-linear    
+protocol da019.ph16.swiftserve.com 
 machine da019.ph16.swiftserve.com ph16-tiktok 1.37.42.245 
-protocol da01.ph17.swiftserve.com http https https-bulk https-linear   
+protocol da01.ph17.swiftserve.com 
 machine da01.ph17.swiftserve.com ph17 202.138.188.2 
-protocol da014.ph18.swiftserve.com http https https-bulk    
+protocol da014.ph18.swiftserve.com 
 machine da014.ph18.swiftserve.com ph18 202.138.188.148 
-protocol da01.ph18.swiftserve.com http https https-linear https-bulk   
+protocol da01.ph18.swiftserve.com 
 machine da01.ph18.swiftserve.com ph18-viu 202.138.188.131 
-protocol da019.ph18.swiftserve.com http https https-linear https-bulk   
+protocol da019.ph18.swiftserve.com 
 machine da019.ph18.swiftserve.com ph18-viu 202.138.188.146 
-protocol da005.ph18.swiftserve.com http https https-linear https-bulk   
+protocol da005.ph18.swiftserve.com 
 machine da005.ph18.swiftserve.com ph18-tiktok 202.138.188.135 
-protocol da013.ph18.swiftserve.com http https https-linear https-bulk   
+protocol da013.ph18.swiftserve.com 
 machine da013.ph18.swiftserve.com ph18-tiktok 202.138.188.147 
-protocol da018.ph18.swiftserve.com http https https-linear https-bulk   
+protocol da018.ph18.swiftserve.com 
 machine da018.ph18.swiftserve.com ph18-tiktok 202.138.188.145 
-protocol da006.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da006.ph18.swiftserve.com 
 machine da006.ph18.swiftserve.com ph18-tiktok 202.138.188.136 
-protocol da007.ph18.swiftserve.com http https https-linear    
+protocol da007.ph18.swiftserve.com 
 machine da007.ph18.swiftserve.com ph18-tiktok 202.138.188.137 
-protocol da008.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da008.ph18.swiftserve.com 
 machine da008.ph18.swiftserve.com ph18-tiktok 202.138.188.138 
-protocol da009.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da009.ph18.swiftserve.com 
 machine da009.ph18.swiftserve.com ph18-tiktok 202.138.188.139 
-protocol da010.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da010.ph18.swiftserve.com 
 machine da010.ph18.swiftserve.com ph18-tiktok 202.138.188.140 
-protocol da011.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da011.ph18.swiftserve.com 
 machine da011.ph18.swiftserve.com ph18-tiktok 202.138.188.141 
-protocol da015.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da015.ph18.swiftserve.com 
 machine da015.ph18.swiftserve.com ph18-tiktok 202.138.188.149 
-protocol da016.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da016.ph18.swiftserve.com 
 machine da016.ph18.swiftserve.com ph18-tiktok 202.138.188.150 
-protocol da017.ph18.swiftserve.com http https https-linear sh-rtmp   
+protocol da017.ph18.swiftserve.com 
 machine da017.ph18.swiftserve.com ph18-tiktok 202.138.188.151 
-protocol ta01.ph18.swiftserve.com ta-ingest ta-egress     
+protocol ta01.ph18.swiftserve.com 
 machine ta01.ph18.swiftserve.com ph18-ta 202.138.188.143 
-protocol ta02.ph18.swiftserve.com ta-ingest ta-egress     
+protocol ta02.ph18.swiftserve.com 
 machine ta02.ph18.swiftserve.com ph18-ta 202.138.188.144 
-protocol mt01.ph18.swiftserve.com http      
+protocol mt01.ph18.swiftserve.com 
 machine mt01.ph18.swiftserve.com ph18-video-midtier 202.138.188.132 
-protocol mt02.ph18.swiftserve.com http      
+protocol mt02.ph18.swiftserve.com 
 machine mt02.ph18.swiftserve.com ph18-video-midtier 202.138.188.134 
-protocol mt03.ph18.swiftserve.com http      
+protocol mt03.ph18.swiftserve.com 
 machine mt03.ph18.swiftserve.com ph18-video-midtier 202.138.188.133 
-protocol mt04.ph18.swiftserve.com http      
+protocol mt04.ph18.swiftserve.com 
 machine mt04.ph18.swiftserve.com ph18-video-midtier 202.138.188.142 
-protocol da01.ph19.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da01.ph19.swiftserve.com 
 machine da01.ph19.swiftserve.com ph19 161.49.22.18 
-protocol da002.ph19.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da002.ph19.swiftserve.com 
 machine da002.ph19.swiftserve.com ph19-tiktok 161.49.22.26 
-protocol da003.ph19.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da003.ph19.swiftserve.com 
 machine da003.ph19.swiftserve.com ph19-tiktok 161.49.22.27 
-protocol da001.ph20.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da001.ph20.swiftserve.com 
 machine da001.ph20.swiftserve.com ph20 204.145.2.251 
-protocol da001.ph21.swiftserve.com http https https-bulk    
+protocol da001.ph21.swiftserve.com 
 machine da001.ph21.swiftserve.com ph21 143.44.160.42 
-protocol da001.ph24.swiftserve.com http https https-linear https-bulk https-small sh-rtmp 
+protocol da001.ph24.swiftserve.com 
 machine da001.ph24.swiftserve.com ph24 202.138.188.19 
-protocol da004.ph24.swiftserve.com http https https-linear https-bulk https-small sh-rtmp 
+protocol da004.ph24.swiftserve.com 
 machine da004.ph24.swiftserve.com ph24 202.138.188.22 
-protocol da006.ph24.swiftserve.com http https https-linear https-bulk https-small sh-rtmp 
+protocol da006.ph24.swiftserve.com 
 machine da006.ph24.swiftserve.com ph24 202.138.188.24 
-protocol da009.ph24.swiftserve.com http https https-linear https-bulk https-small sh-rtmp 
+protocol da009.ph24.swiftserve.com 
 machine da009.ph24.swiftserve.com ph24 202.138.188.23 
-protocol da007.ph24.swiftserve.com http https https-bulk    
+protocol da007.ph24.swiftserve.com 
 machine da007.ph24.swiftserve.com ph24 202.138.188.25 
-protocol da008.ph24.swiftserve.com http https https-linear https-small sh-rtmp  
+protocol da008.ph24.swiftserve.com 
 machine da008.ph24.swiftserve.com ph24-tiktok 202.138.188.26 
-protocol mt002.ph24.swiftserve.com http      
+protocol mt002.ph24.swiftserve.com 
 machine mt002.ph24.swiftserve.com ph24-video-midtier 202.138.188.20 
-protocol mt003.ph24.swiftserve.com http      
+protocol mt003.ph24.swiftserve.com 
 machine mt003.ph24.swiftserve.com ph24-video-midtier 202.138.188.21 
-protocol da001.ph25.swiftserve.com http https https-linear https-bulk https-small  
+protocol da001.ph25.swiftserve.com 
 machine da001.ph25.swiftserve.com ph25 114.108.213.66 
-protocol da002.ph25.swiftserve.com http https https-linear https-bulk https-small  
+protocol da002.ph25.swiftserve.com 
 machine da002.ph25.swiftserve.com ph25 114.108.213.67 
-protocol da01.ru02.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.ru02.swiftserve.com 
 machine da01.ru02.swiftserve.com ru02 94.156.226.250 
-protocol mt01.sg01.swiftserve.com http      
+protocol mt01.sg01.swiftserve.com 
 machine mt01.sg01.swiftserve.com sg01-midtier 203.117.147.218 
-protocol mt02.sg01.swiftserve.com http      
+protocol mt02.sg01.swiftserve.com 
 machine mt02.sg01.swiftserve.com sg01-video-midtier 203.117.147.220 
-protocol mt04.sg01.swiftserve.com http      
+protocol mt04.sg01.swiftserve.com 
 machine mt04.sg01.swiftserve.com sg01-video-midtier 203.117.147.231 
-protocol mt05.sg01.swiftserve.com http      
+protocol mt05.sg01.swiftserve.com 
 machine mt05.sg01.swiftserve.com sg01-video-midtier 203.117.147.207 
-protocol mt06.sg01.swiftserve.com http      
+protocol mt06.sg01.swiftserve.com 
 machine mt06.sg01.swiftserve.com sg01-video-midtier 203.117.147.205 
-protocol mt07.sg01.swiftserve.com http      
+protocol mt07.sg01.swiftserve.com 
 machine mt07.sg01.swiftserve.com sg01-video-midtier 203.117.147.206 
-protocol da001.sg04.swiftserve.com http https sh-rtmp https-bulk https-small  
+protocol da001.sg04.swiftserve.com 
 machine da001.sg04.swiftserve.com sg-obor 203.116.18.207 
-protocol da09.sg04.swiftserve.com http https https-linear https-bulk https-small  
+protocol da09.sg04.swiftserve.com 
 machine da09.sg04.swiftserve.com sg-obor 203.116.18.214 
-protocol ta01.sg04.swiftserve.com ta-ingest ta-egress     
+protocol ta01.sg04.swiftserve.com 
 machine ta01.sg04.swiftserve.com sg-ta 203.116.18.239 
-protocol ta04.sg01.swiftserve.com ta-ingest ta-egress     
+protocol ta04.sg01.swiftserve.com 
 machine ta04.sg01.swiftserve.com sg-ta 203.117.147.235 
-protocol ta03.sg01.swiftserve.com ta-ingest ta-egress     
+protocol ta03.sg01.swiftserve.com 
 machine ta03.sg01.swiftserve.com sg01-turfclub 203.117.147.222 
-protocol ta03.sg04.swiftserve.com ta-ingest ta-egress     
+protocol ta03.sg04.swiftserve.com 
 machine ta03.sg04.swiftserve.com sg04-turfclub 203.116.18.218 
-protocol da01.sg06.swiftserve.com http https https-linear    
+protocol da01.sg06.swiftserve.com 
 machine da01.sg06.swiftserve.com sg06-bdapi 116.206.136.78 
-protocol mt01.sg19.swiftserve.com http      
+protocol mt01.sg19.swiftserve.com 
 machine mt01.sg19.swiftserve.com sg19-midtier 49.213.20.139 
-protocol mt02.sg19.swiftserve.com http      
+protocol mt02.sg19.swiftserve.com 
 machine mt02.sg19.swiftserve.com sg19-midtier 49.213.20.140 
-protocol mt03.sg19.swiftserve.com http      
+protocol mt03.sg19.swiftserve.com 
 machine mt03.sg19.swiftserve.com sg19-midtier 49.213.20.141 
-protocol mt04.sg19.swiftserve.com http      
+protocol mt04.sg19.swiftserve.com 
 machine mt04.sg19.swiftserve.com sg19-midtier 49.213.20.134 
-protocol mt06.sg19.swiftserve.com http      
+protocol mt06.sg19.swiftserve.com 
 machine mt06.sg19.swiftserve.com sg19-midtier 49.213.20.135 
-protocol mt08.sg19.swiftserve.com http      
+protocol mt08.sg19.swiftserve.com 
 machine mt08.sg19.swiftserve.com sg19-midtier 49.213.20.136 
-protocol mt09.sg19.swiftserve.com http      
+protocol mt09.sg19.swiftserve.com 
 machine mt09.sg19.swiftserve.com sg19-midtier 49.213.20.137 
-protocol mt007.sg19.swiftserve.com http      
+protocol mt007.sg19.swiftserve.com 
 machine mt007.sg19.swiftserve.com sg19-midtier 49.213.20.142 
-protocol mt05.sg19.swiftserve.com http      
+protocol mt05.sg19.swiftserve.com 
 machine mt05.sg19.swiftserve.com sg19-ml-mt 49.213.20.138 
-protocol da01.th08.swiftserve.com http      
+protocol da01.th08.swiftserve.com 
 machine da01.th08.swiftserve.com th08 203.144.174.101 
-protocol da02.th08.swiftserve.com http      
+protocol da02.th08.swiftserve.com 
 machine da02.th08.swiftserve.com th08 203.144.174.102 
-protocol da03.th08.swiftserve.com http      
+protocol da03.th08.swiftserve.com 
 machine da03.th08.swiftserve.com th08 203.144.174.112 
-protocol da01.th12.swiftserve.com http https https-bulk https-linear   
+protocol da01.th12.swiftserve.com 
 machine da01.th12.swiftserve.com th12 203.154.14.11 
-protocol nda01.th12.swiftserve.com nda      
+protocol nda01.th12.swiftserve.com 
 machine nda01.th12.swiftserve.com th12-httpflv 203.154.14.61 
-protocol ta01.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta01.th12.swiftserve.com 
 machine ta01.th12.swiftserve.com th12-ta 203.154.14.4 
-protocol ta02.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta02.th12.swiftserve.com 
 machine ta02.th12.swiftserve.com th12-ta 203.154.14.16 
-protocol ta03.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta03.th12.swiftserve.com 
 machine ta03.th12.swiftserve.com th12-ta 203.154.14.12 
-protocol ta04.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta04.th12.swiftserve.com 
 machine ta04.th12.swiftserve.com th12-ta 203.154.14.62 
-protocol ta05.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta05.th12.swiftserve.com 
 machine ta05.th12.swiftserve.com th12-testta 203.154.14.25 
-protocol ta06.th12.swiftserve.com ta-ingest ta-egress     
+protocol ta06.th12.swiftserve.com 
 machine ta06.th12.swiftserve.com th12-testta 203.154.14.26 
-protocol da13.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da13.th20.swiftserve.com 
 machine da13.th20.swiftserve.com th20 203.144.174.72 
-protocol da001.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da001.th20.swiftserve.com 
 machine da001.th20.swiftserve.com th20-tiktok 203.144.174.116 
-protocol da002.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da002.th20.swiftserve.com 
 machine da002.th20.swiftserve.com th20-tiktok 203.144.174.119 
-protocol da003.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da003.th20.swiftserve.com 
 machine da003.th20.swiftserve.com th20-tiktok 203.144.174.120 
-protocol da004.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da004.th20.swiftserve.com 
 machine da004.th20.swiftserve.com th20-tiktok 203.144.174.121 
-protocol da005.th20.swiftserve.com http https https-linear https-bulk https-small  
+protocol da005.th20.swiftserve.com 
 machine da005.th20.swiftserve.com th20-tiktok 203.144.174.122 
-protocol mt01.th20.swiftserve.com http      
+protocol mt01.th20.swiftserve.com 
 machine mt01.th20.swiftserve.com th20-mt 203.144.174.105 
-protocol mt02.th20.swiftserve.com http      
+protocol mt02.th20.swiftserve.com 
 machine mt02.th20.swiftserve.com th20-mt 203.144.174.107 
-protocol mt03.th20.swiftserve.com http      
+protocol mt03.th20.swiftserve.com 
 machine mt03.th20.swiftserve.com th20-mt 203.144.174.114 
-protocol nda02.th20.swiftserve.com nda      
+protocol nda02.th20.swiftserve.com 
 machine nda02.th20.swiftserve.com th20-httpflv 203.144.174.104 
-protocol nda03.th20.swiftserve.com nda      
+protocol nda03.th20.swiftserve.com 
 machine nda03.th20.swiftserve.com th20-httpflv 203.144.174.111 
-protocol da25.th30.swiftserve.com http      
+protocol da25.th30.swiftserve.com 
 machine da25.th30.swiftserve.com th30.tls 49.231.36.155 
-protocol da35.th30.swiftserve.com http      
+protocol da35.th30.swiftserve.com 
 machine da35.th30.swiftserve.com th30.justplay 49.231.36.165 
-protocol da001.th33.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da001.th33.swiftserve.com 
 machine da001.th33.swiftserve.com th33 49.231.35.14 
-protocol da002.th33.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da002.th33.swiftserve.com 
 machine da002.th33.swiftserve.com th33 49.231.35.12 
-protocol da003.th33.swiftserve.com http https https-bulk https-linear https-small  
+protocol da003.th33.swiftserve.com 
 machine da003.th33.swiftserve.com th33 49.231.35.2 
-protocol da004.th33.swiftserve.com http https sh-rtmp https-bulk https-linear https-small 
+protocol da004.th33.swiftserve.com 
 machine da004.th33.swiftserve.com th33 49.231.35.11 
-protocol mt01.th33.swiftserve.com http      
+protocol mt01.th33.swiftserve.com 
 machine mt01.th33.swiftserve.com th33-mt 49.231.35.10 
-protocol da001.th34.swiftserve.com http https https-bulk https-linear sh-rtmp https-small 
+protocol da001.th34.swiftserve.com 
 machine da001.th34.swiftserve.com th34 49.231.34.14 
-protocol da002.th34.swiftserve.com http https https-bulk https-linear sh-rtmp https-small 
+protocol da002.th34.swiftserve.com 
 machine da002.th34.swiftserve.com th34 49.231.34.2 
-protocol da003.th34.swiftserve.com http https https-bulk https-linear sh-rtmp https-small 
+protocol da003.th34.swiftserve.com 
 machine da003.th34.swiftserve.com th34 49.231.34.10 
-protocol nda001.th34.swiftserve.com nda      
+protocol nda001.th34.swiftserve.com 
 machine nda001.th34.swiftserve.com th34-httpflv 49.231.34.10 
-protocol mt01.th34.swiftserve.com http      
+protocol mt01.th34.swiftserve.com 
 machine mt01.th34.swiftserve.com th34-mt 49.231.34.6 
-protocol da01.th36.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.th36.swiftserve.com 
 machine da01.th36.swiftserve.com th36 159.192.4.3 
-protocol da02.th36.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.th36.swiftserve.com 
 machine da02.th36.swiftserve.com th36 159.192.4.4 
-protocol da06.th37.swiftserve.com http https https-bulk    
+protocol da06.th37.swiftserve.com 
 machine da06.th37.swiftserve.com th37 110.164.14.175 
-protocol da001.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.th37.swiftserve.com 
 machine da001.th37.swiftserve.com th37 110.164.14.139 
-protocol da002.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da002.th37.swiftserve.com 
 machine da002.th37.swiftserve.com th37 110.164.14.141 
-protocol da003.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da003.th37.swiftserve.com 
 machine da003.th37.swiftserve.com th37 110.164.14.186 
-protocol da004.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da004.th37.swiftserve.com 
 machine da004.th37.swiftserve.com th37 110.164.14.173 
-protocol da005.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da005.th37.swiftserve.com 
 machine da005.th37.swiftserve.com th37 110.164.14.177 
-protocol da006.th37.swiftserve.com http https https-bulk https-linear https-small  
+protocol da006.th37.swiftserve.com 
 machine da006.th37.swiftserve.com th37 110.164.14.191 
-protocol da07.th37.swiftserve.com http https https-bulk    
+protocol da07.th37.swiftserve.com 
 machine da07.th37.swiftserve.com th37 110.164.14.193 
-protocol mt03.th37.swiftserve.com http      
+protocol mt03.th37.swiftserve.com 
 machine mt03.th37.swiftserve.com th37-mt 110.164.14.151 
-protocol mt04.th37.swiftserve.com http      
+protocol mt04.th37.swiftserve.com 
 machine mt04.th37.swiftserve.com th37-mt 110.164.14.185 
-protocol da02.th38.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.th38.swiftserve.com 
 machine da02.th38.swiftserve.com th38 125.24.213.202 
-protocol da001.th38.swiftserve.com http https https-bulk https-linear   
+protocol da001.th38.swiftserve.com 
 machine da001.th38.swiftserve.com th38-tiktok 125.24.217.19 
-protocol da03.th38.swiftserve.com http https https-bulk https-linear   
+protocol da03.th38.swiftserve.com 
 machine da03.th38.swiftserve.com th38-tiktok 125.24.213.203 
-protocol da04.th38.swiftserve.com http https https-bulk https-linear   
+protocol da04.th38.swiftserve.com 
 machine da04.th38.swiftserve.com th38-tiktok 125.24.213.204 
-protocol da02.th39.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.th39.swiftserve.com 
 machine da02.th39.swiftserve.com th39 125.24.213.194 
-protocol da03.th39.swiftserve.com http https https-bulk https-linear   
+protocol da03.th39.swiftserve.com 
 machine da03.th39.swiftserve.com th39-tiktok 125.24.213.195 
-protocol da04.th39.swiftserve.com http https https-bulk https-linear   
+protocol da04.th39.swiftserve.com 
 machine da04.th39.swiftserve.com th39-tiktok 125.24.213.196 
-protocol da001.th39.swiftserve.com http https https-bulk https-linear   
+protocol da001.th39.swiftserve.com 
 machine da001.th39.swiftserve.com th39-tiktok 125.24.217.27 
-protocol da01.th41.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.th41.swiftserve.com 
 machine da01.th41.swiftserve.com th41 115.67.19.94 
-protocol da02.th41.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.th41.swiftserve.com 
 machine da02.th41.swiftserve.com th41 115.67.19.98 
-protocol da001.th41.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.th41.swiftserve.com 
 machine da001.th41.swiftserve.com th41 115.67.19.154 
-protocol da01.th42.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.th42.swiftserve.com 
 machine da01.th42.swiftserve.com th42 115.67.96.34 
-protocol da02.th42.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.th42.swiftserve.com 
 machine da02.th42.swiftserve.com th42 115.67.96.38 
-protocol da001.th42.swiftserve.com http https https-bulk https-linear https-small  
+protocol da001.th42.swiftserve.com 
 machine da001.th42.swiftserve.com th42 115.67.18.210 
-protocol da001.th43.swiftserve.com http https https-bulk https-linear sh-rtmp  
+protocol da001.th43.swiftserve.com 
 machine da001.th43.swiftserve.com th43 49.231.37.149 
-protocol da002.th43.swiftserve.com http https https-bulk https-linear sh-rtmp  
+protocol da002.th43.swiftserve.com 
 machine da002.th43.swiftserve.com th43 49.231.37.150 
-protocol mt01.th43.swiftserve.com http      
+protocol mt01.th43.swiftserve.com 
 machine mt01.th43.swiftserve.com th43-mt 49.231.37.151 
-protocol mt02.th43.swiftserve.com http      
+protocol mt02.th43.swiftserve.com 
 machine mt02.th43.swiftserve.com th43-mt 49.231.37.152 
-protocol da01.tw05.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.tw05.swiftserve.com 
 machine da01.tw05.swiftserve.com tw05 103.68.138.54 
-protocol da01.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.tw06.swiftserve.com 
 machine da01.tw06.swiftserve.com tw06 1.9.250.35 
-protocol da02.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.tw06.swiftserve.com 
 machine da02.tw06.swiftserve.com tw06 1.9.250.36 
-protocol da03.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da03.tw06.swiftserve.com 
 machine da03.tw06.swiftserve.com tw06 1.9.250.37 
-protocol da04.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da04.tw06.swiftserve.com 
 machine da04.tw06.swiftserve.com tw06 1.9.250.38 
-protocol da05.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da05.tw06.swiftserve.com 
 machine da05.tw06.swiftserve.com tw06 1.9.250.39 
-protocol da06.tw06.swiftserve.com http https https-bulk https-linear https-small  
+protocol da06.tw06.swiftserve.com 
 machine da06.tw06.swiftserve.com tw06 1.9.250.40 
-protocol da01.tw07.swiftserve.com http https https-bulk https-linear https-small  
+protocol da01.tw07.swiftserve.com 
 machine da01.tw07.swiftserve.com tw07 203.121.225.131 
-protocol da02.tw07.swiftserve.com http https https-bulk https-linear https-small  
+protocol da02.tw07.swiftserve.com 
 machine da02.tw07.swiftserve.com tw07 203.121.225.132 
-protocol da03.us07.swiftserve.com http https https-linear https-small   
+protocol da03.us07.swiftserve.com 
 machine da03.us07.swiftserve.com us07 45.93.83.110 
-protocol da04.us07.swiftserve.com http https https-linear https-small   
+protocol da04.us07.swiftserve.com 
 machine da04.us07.swiftserve.com us07 45.93.83.111 
-protocol da03.vn05.swiftserve.com http https-linear     
+protocol da03.vn05.swiftserve.com 
 machine da03.vn05.swiftserve.com vn05 103.90.220.244 
-protocol da14.vn05.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da14.vn05.swiftserve.com 
 machine da14.vn05.swiftserve.com vn05 103.90.220.91 
-protocol da01.vn05.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da01.vn05.swiftserve.com 
 machine da01.vn05.swiftserve.com vn05-vietnam 103.90.220.245 
-protocol da05.vn05.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da05.vn05.swiftserve.com 
 machine da05.vn05.swiftserve.com vn05-vietnam 103.90.220.237 
-protocol da06.vn05.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da06.vn05.swiftserve.com 
 machine da06.vn05.swiftserve.com vn05-vietnam 103.90.220.238 
-protocol da07.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da07.vn05.swiftserve.com 
 machine da07.vn05.swiftserve.com vn05-vietnam 103.90.220.251 
-protocol da08.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da08.vn05.swiftserve.com 
 machine da08.vn05.swiftserve.com vn05-tiktok 103.90.220.252 
-protocol da09.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da09.vn05.swiftserve.com 
 machine da09.vn05.swiftserve.com vn05-tiktok 103.90.220.253 
-protocol da10.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da10.vn05.swiftserve.com 
 machine da10.vn05.swiftserve.com vn05-tiktok 103.90.220.254 
-protocol da11.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da11.vn05.swiftserve.com 
 machine da11.vn05.swiftserve.com vn05-tiktok 103.90.220.76 
-protocol da12.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da12.vn05.swiftserve.com 
 machine da12.vn05.swiftserve.com vn05-tiktok 103.90.220.87 
-protocol da13.vn05.swiftserve.com http https https-linear https-bulk   
+protocol da13.vn05.swiftserve.com 
 machine da13.vn05.swiftserve.com vn05-tiktok 103.90.220.90 
-protocol mt01.vn05.swiftserve.com http https     
+protocol mt01.vn05.swiftserve.com 
 machine mt01.vn05.swiftserve.com vn05-midtier 103.90.220.246 
-protocol da02.vn06.swiftserve.com http https     
+protocol da02.vn06.swiftserve.com 
 machine da02.vn06.swiftserve.com vn-fpt 103.90.223.3 
-protocol da05.vn06.swiftserve.com http https https-linear https-bulk   
+protocol da05.vn06.swiftserve.com 
 machine da05.vn06.swiftserve.com vn-fpt 103.90.223.5 
-protocol da06.vn06.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da06.vn06.swiftserve.com 
 machine da06.vn06.swiftserve.com vn-fpt 103.90.223.6 
-protocol da07.vn06.swiftserve.com http https sh-rtmp https-linear https-bulk  
+protocol da07.vn06.swiftserve.com 
 machine da07.vn06.swiftserve.com vn-fpt 103.90.223.7 
-protocol da08.vn06.swiftserve.com http https https-linear https-bulk   
+protocol da08.vn06.swiftserve.com 
 machine da08.vn06.swiftserve.com vn-fpt 103.90.223.8 
-protocol da09.vn06.swiftserve.com http https https-linear https-bulk https-small  
+protocol da09.vn06.swiftserve.com 
 machine da09.vn06.swiftserve.com vn-fpt 103.90.223.9 
-protocol da10.vn06.swiftserve.com http https https-linear https-bulk https-small  
+protocol da10.vn06.swiftserve.com 
 machine da10.vn06.swiftserve.com vn-fpt 103.90.223.10 
-protocol da01.vn08.swiftserve.com http https https-bulk sh-rtmp https-small  
+protocol da01.vn08.swiftserve.com 
 machine da01.vn08.swiftserve.com vn-fpt 103.90.223.130 
-protocol da02.vn08.swiftserve.com http https https-bulk https-linear sh-rtmp  
+protocol da02.vn08.swiftserve.com 
 machine da02.vn08.swiftserve.com vn-fpt 103.90.223.131 
-protocol da03.vn08.swiftserve.com http https https-bulk https-linear sh-rtmp https-small 
+protocol da03.vn08.swiftserve.com 
 machine da03.vn08.swiftserve.com vn-fpt 103.90.223.132 
-protocol da04.vn08.swiftserve.com http https https-bulk sh-rtmp https-small  
+protocol da04.vn08.swiftserve.com 
 machine da04.vn08.swiftserve.com vn-fpt 103.90.223.133 
-protocol da05.vn08.swiftserve.com http https https-bulk https-linear https-small  
+protocol da05.vn08.swiftserve.com 
 machine da05.vn08.swiftserve.com vn-fpt 103.90.223.134 
-protocol da06.vn08.swiftserve.com http https https-bulk https-linear https-small  
+protocol da06.vn08.swiftserve.com 
 machine da06.vn08.swiftserve.com vn-fpt 103.90.223.135 
-protocol da07.vn08.swiftserve.com http https https-bulk https-linear https-small  
+protocol da07.vn08.swiftserve.com 
 machine da07.vn08.swiftserve.com vn-fpt 103.90.223.136 
-protocol da08.vn08.swiftserve.com http https https-bulk sh-rtmp https-linear https-small 
+protocol da08.vn08.swiftserve.com 
 machine da08.vn08.swiftserve.com vn-fpt 103.90.223.137 
-protocol da09.vn08.swiftserve.com http https https-bulk https-linear   
+protocol da09.vn08.swiftserve.com 
 machine da09.vn08.swiftserve.com vn-fpt 103.90.223.138 
-protocol da10.vn08.swiftserve.com http https https-bulk https-small   
+protocol da10.vn08.swiftserve.com 
 machine da10.vn08.swiftserve.com vn-fpt 103.90.223.139 
-protocol mt01.vn06.swiftserve.com http https     
+protocol mt01.vn06.swiftserve.com 
 machine mt01.vn06.swiftserve.com vn06-midtier 103.90.223.4 
-protocol ta01.vn05.swiftserve.com ta-ingest ta-egress     
+protocol ta01.vn05.swiftserve.com 
 machine ta01.vn05.swiftserve.com vn05-ta 103.90.220.236 
-protocol ta02.vn06.swiftserve.com ta-ingest ta-egress     
+protocol ta02.vn06.swiftserve.com 
 machine ta02.vn06.swiftserve.com vn06-ta 103.90.223.2 
-protocol da01.vn09.swiftserve.com http https https-bulk    
+protocol da01.vn09.swiftserve.com 
 machine da01.vn09.swiftserve.com vn09-vietnam 103.90.222.4 
-protocol da02.vn09.swiftserve.com http https https-bulk    
+protocol da02.vn09.swiftserve.com 
 machine da02.vn09.swiftserve.com vn09-vietnam 103.90.222.5 
-protocol da10.vn09.swiftserve.com http https https-linear https-bulk   
+protocol da10.vn09.swiftserve.com 
 machine da10.vn09.swiftserve.com vn09 103.90.222.12 
-protocol da03.vn09.swiftserve.com http https https-linear    
+protocol da03.vn09.swiftserve.com 
 machine da03.vn09.swiftserve.com vn09-tiktok 103.90.222.6 
-protocol da04.vn09.swiftserve.com http https https-linear    
+protocol da04.vn09.swiftserve.com 
 machine da04.vn09.swiftserve.com vn09-tiktok 103.90.222.7 
-protocol da06.vn09.swiftserve.com http https https-linear    
+protocol da06.vn09.swiftserve.com 
 machine da06.vn09.swiftserve.com vn09-tiktok 103.90.222.8 
-protocol da07.vn09.swiftserve.com http https https-linear    
+protocol da07.vn09.swiftserve.com 
 machine da07.vn09.swiftserve.com vn09-tiktok 103.90.222.9 
-protocol da08.vn09.swiftserve.com http https https-linear    
+protocol da08.vn09.swiftserve.com 
 machine da08.vn09.swiftserve.com vn09-tiktok 103.90.222.10 
-protocol da09.vn09.swiftserve.com http https https-linear    
+protocol da09.vn09.swiftserve.com 
 machine da09.vn09.swiftserve.com vn09-tiktok 103.90.222.11 
-protocol nda01.vn09.swiftserve.com nda      
+protocol nda01.vn09.swiftserve.com 
 machine nda01.vn09.swiftserve.com vn09-httpflv 103.90.222.13 
-protocol da01.vn11.swiftserve.com http https https-linear https-small   
+protocol da01.vn11.swiftserve.com 
 machine da01.vn11.swiftserve.com vn11-generic 103.151.240.2 
-protocol da02.vn11.swiftserve.com http https https-linear https-small   
+protocol da02.vn11.swiftserve.com 
 machine da02.vn11.swiftserve.com vn11-generic 103.151.240.3 
-protocol da03.vn11.swiftserve.com http https https-linear https-small   
+protocol da03.vn11.swiftserve.com 
 machine da03.vn11.swiftserve.com vn11 103.151.240.4 
-protocol da04.vn11.swiftserve.com http https https-linear https-small   
+protocol da04.vn11.swiftserve.com 
 machine da04.vn11.swiftserve.com vn11 103.151.240.5 
-protocol da05.vn11.swiftserve.com http https https-linear https-small   
+protocol da05.vn11.swiftserve.com 
 machine da05.vn11.swiftserve.com vn11 103.151.240.6 
-protocol da06.vn11.swiftserve.com http https https-linear https-small   
+protocol da06.vn11.swiftserve.com 
 machine da06.vn11.swiftserve.com vn11 103.151.240.7 
-protocol da07.vn11.swiftserve.com http https https-linear https-small   
+protocol da07.vn11.swiftserve.com 
 machine da07.vn11.swiftserve.com vn11 103.151.240.8 
-protocol mt01.vn11.swiftserve.com http      
+protocol mt01.vn11.swiftserve.com 
 machine mt01.vn11.swiftserve.com vn11-video-midtier 103.151.240.9 
-protocol mt02.vn11.swiftserve.com http      
+protocol mt02.vn11.swiftserve.com 
 machine mt02.vn11.swiftserve.com vn11-video-midtier 103.151.240.10 
-protocol mt03.vn11.swiftserve.com http      
+protocol mt03.vn11.swiftserve.com 
 machine mt03.vn11.swiftserve.com vn11-video-midtier 103.151.240.11 
-protocol da03.vn12.swiftserve.com http https https-linear https-small   
+protocol da03.vn12.swiftserve.com 
 machine da03.vn12.swiftserve.com vn12 103.90.222.20 
-protocol da04.vn12.swiftserve.com http https https-linear https-small   
+protocol da04.vn12.swiftserve.com 
 machine da04.vn12.swiftserve.com vn12 103.90.222.21 
-protocol da05.vn12.swiftserve.com http https https-linear https-small   
+protocol da05.vn12.swiftserve.com 
 machine da05.vn12.swiftserve.com vn12 103.90.222.22 
-protocol da06.vn12.swiftserve.com http https https-linear https-small   
+protocol da06.vn12.swiftserve.com 
 machine da06.vn12.swiftserve.com vn12 103.90.222.23 
-protocol da07.vn12.swiftserve.com http https https-linear https-small   
+protocol da07.vn12.swiftserve.com 
 machine da07.vn12.swiftserve.com vn12 103.90.222.24 
-protocol da08.vn12.swiftserve.com http https https-linear https-small   
+protocol da08.vn12.swiftserve.com 
 machine da08.vn12.swiftserve.com vn12 103.90.222.25 
-protocol da09.vn12.swiftserve.com http https https-bulk https-linear https-small  
+protocol da09.vn12.swiftserve.com 
 machine da09.vn12.swiftserve.com vn12-generic 103.90.222.26 
-protocol mt01.vn12.swiftserve.com http      
+protocol mt01.vn12.swiftserve.com 
 machine mt01.vn12.swiftserve.com vn12-video-midtier 103.90.222.18 
-protocol mt02.vn12.swiftserve.com http      
+protocol mt02.vn12.swiftserve.com 
 machine mt02.vn12.swiftserve.com vn12-video-midtier 103.90.222.19 
-protocol mt03.vn12.swiftserve.com http      
+protocol mt03.vn12.swiftserve.com 
 machine mt03.vn12.swiftserve.com vn12-video-midtier 103.90.222.27 
-protocol da005.vn13.swiftserve.com http https https-linear https-small   
+protocol da005.vn13.swiftserve.com 
 machine da005.vn13.swiftserve.com vn13-vietnam 103.90.221.6 
-protocol nda01.vn13.swiftserve.com nda      
+protocol nda01.vn13.swiftserve.com 
 machine nda01.vn13.swiftserve.com vn13-httpflv 103.90.221.5 
-protocol da001.vn13.swiftserve.com http https https-linear https-small   
+protocol da001.vn13.swiftserve.com 
 machine da001.vn13.swiftserve.com vn13-tiktok 103.90.221.2 
-protocol da002.vn13.swiftserve.com http https https-linear https-small   
+protocol da002.vn13.swiftserve.com 
 machine da002.vn13.swiftserve.com vn13-tiktok 103.90.221.3 
-protocol da003.vn13.swiftserve.com http https https-linear https-small   
+protocol da003.vn13.swiftserve.com 
 machine da003.vn13.swiftserve.com vn13-tiktok 103.90.221.4 
-protocol da004.vn13.swiftserve.com http https https-linear https-small   
+protocol da004.vn13.swiftserve.com 
 machine da004.vn13.swiftserve.com vn13-tiktok 103.90.221.5 
-protocol da005.vn14.swiftserve.com http https https-linear https-small   
+protocol da005.vn14.swiftserve.com 
 machine da005.vn14.swiftserve.com vn14-vietnam 45.117.160.134 
-protocol nda01.vn14.swiftserve.com nda      
+protocol nda01.vn14.swiftserve.com 
 machine nda01.vn14.swiftserve.com vn14-httpflv 45.117.160.133 
-protocol da001.vn14.swiftserve.com http https https-linear https-small   
+protocol da001.vn14.swiftserve.com 
 machine da001.vn14.swiftserve.com vn14-tiktok 45.117.160.130 
-protocol da002.vn14.swiftserve.com http https https-linear https-small   
+protocol da002.vn14.swiftserve.com 
 machine da002.vn14.swiftserve.com vn14-tiktok 45.117.160.131 
-protocol da003.vn14.swiftserve.com http https https-linear https-small   
+protocol da003.vn14.swiftserve.com 
 machine da003.vn14.swiftserve.com vn14-tiktok 45.117.160.132 
-protocol da004.vn14.swiftserve.com http https https-linear https-small   
+protocol da004.vn14.swiftserve.com 
 machine da004.vn14.swiftserve.com vn14-tiktok 45.117.160.133 
-protocol da001.vn15.swiftserve.com http https https-linear https-bulk   
+protocol da001.vn15.swiftserve.com 
 machine da001.vn15.swiftserve.com vn15-vietnam 103.161.22.130 
-protocol da002.vn15.swiftserve.com http https https-linear https-bulk   
+protocol da002.vn15.swiftserve.com 
 machine da002.vn15.swiftserve.com vn15-vietnam 103.161.22.131 
-protocol da003.vn15.swiftserve.com http https https-linear https-bulk   
+protocol da003.vn15.swiftserve.com 
 machine da003.vn15.swiftserve.com vn15-vietnam 103.161.22.132 
-protocol da004.vn15.swiftserve.com http https https-linear https-bulk   
+protocol da004.vn15.swiftserve.com 
 machine da004.vn15.swiftserve.com vn15-vietnam 103.161.22.133 
-protocol da005.vn15.swiftserve.com http https https-linear https-bulk   
+protocol da005.vn15.swiftserve.com 
 machine da005.vn15.swiftserve.com vn15-vietnam 103.161.22.134 
-protocol da001.vn16.swiftserve.com http https https-linear https-bulk   
+protocol da001.vn16.swiftserve.com 
 machine da001.vn16.swiftserve.com vn16-vietnam 103.90.222.243 
-protocol da002.vn16.swiftserve.com http https https-linear https-bulk   
+protocol da002.vn16.swiftserve.com 
 machine da002.vn16.swiftserve.com vn16-vietnam 103.90.222.244 
-protocol da003.vn16.swiftserve.com http https https-linear https-bulk   
+protocol da003.vn16.swiftserve.com 
 machine da003.vn16.swiftserve.com vn16-vietnam 103.90.222.245 
-protocol da004.vn16.swiftserve.com http https https-linear https-bulk   
+protocol da004.vn16.swiftserve.com 
 machine da004.vn16.swiftserve.com vn16-vietnam 103.90.222.246 
-protocol da005.vn16.swiftserve.com http https https-linear https-bulk   
+protocol da005.vn16.swiftserve.com 
 machine da005.vn16.swiftserve.com vn16-vietnam 103.90.222.247 
-protocol da02.vn30.swiftserve.com http https https-linear https-small   
+protocol da02.vn30.swiftserve.com 
 machine da02.vn30.swiftserve.com vn30 222.255.212.133 
-protocol da04.vn30.swiftserve.com http https https-linear https-small   
+protocol da04.vn30.swiftserve.com 
 machine da04.vn30.swiftserve.com vn30 222.255.212.132 
-protocol da001.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da001.vn40.swiftserve.com 
 machine da001.vn40.swiftserve.com vn40 58.186.187.36 
-protocol da002.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da002.vn40.swiftserve.com 
 machine da002.vn40.swiftserve.com vn40 58.186.187.37 
-protocol da003.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da003.vn40.swiftserve.com 
 machine da003.vn40.swiftserve.com vn40 58.186.187.38 
-protocol da004.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da004.vn40.swiftserve.com 
 machine da004.vn40.swiftserve.com vn40 58.186.187.39 
-protocol da005.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da005.vn40.swiftserve.com 
 machine da005.vn40.swiftserve.com vn40 58.186.187.40 
-protocol da006.vn40.swiftserve.com http https https-linear https-bulk   
+protocol da006.vn40.swiftserve.com 
 machine da006.vn40.swiftserve.com vn40 58.186.187.41 
-protocol mt01.vn40.swiftserve.com http      
+protocol mt01.vn40.swiftserve.com 
 machine mt01.vn40.swiftserve.com vn40-video-midtier 58.186.187.34 
-protocol mt02.vn40.swiftserve.com http      
+protocol mt02.vn40.swiftserve.com 
 machine mt02.vn40.swiftserve.com vn40-video-midtier 58.186.187.35 
-protocol da001.vn41.swiftserve.com http https https-linear https-small   
+protocol da001.vn41.swiftserve.com 
 machine da001.vn41.swiftserve.com vn41 42.117.231.164 
-protocol da002.vn41.swiftserve.com http https https-linear https-small   
+protocol da002.vn41.swiftserve.com 
 machine da002.vn41.swiftserve.com vn41 42.117.231.165 
-protocol da003.vn41.swiftserve.com http https https-linear https-small   
+protocol da003.vn41.swiftserve.com 
 machine da003.vn41.swiftserve.com vn41 42.117.231.166 
-protocol da004.vn41.swiftserve.com http https https-linear https-small   
+protocol da004.vn41.swiftserve.com 
 machine da004.vn41.swiftserve.com vn41 42.117.231.167 
-protocol da005.vn41.swiftserve.com http https https-linear https-small   
+protocol da005.vn41.swiftserve.com 
 machine da005.vn41.swiftserve.com vn41 42.117.231.168 
-protocol da006.vn41.swiftserve.com http https https-linear https-small   
+protocol da006.vn41.swiftserve.com 
 machine da006.vn41.swiftserve.com vn41 42.117.231.169 
 
 
@@ -14433,7 +14433,7 @@ whitelist-exclude th30.tls th30.justplay
 ############ TESTING ############
 block-mmdb 192.168.1.0/24 g.sg      
 block-mmdb 192.168.2.0/24 g.id      
-block-mmdb 192.168.1.0/24 g.sg
+block-mmdb 192.168.1.0/24 g.sg      
 block-mmdb 192.168.2.0/24 g.id      
 block-mmdb 192.168.1.0 192.168.1.255 g.sg     
 block-mmdb 192.168.2.0 192.168.2.255 g.id     
